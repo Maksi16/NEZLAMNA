@@ -8,19 +8,20 @@
 .conteiner {
   padding: 0 15px;
   margin: 0 auto;
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  }
+  width: 1280px;
+  //   @media screen and (min-width: 480px) {
+  //     width: 480px;
+  //   }
+  //   @media screen and (min-width: 768px) {
+  //     width: 768px;
+  //   }
+  //   @media screen and (min-width: 1280px) {
+  //     width: 1280px;
+  //   }
 }
 .link-help {
   display: block;
-  margin-right: auto;
+
   margin-left: auto;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -32,4 +33,10 @@
   color: #fff;
   background-color: $brandColor;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: $secondColor;
+    color: #212121;
+  }
 }

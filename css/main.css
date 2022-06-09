@@ -33,26 +33,11 @@ img {
 .conteiner {
   padding: 0 15px;
   margin: 0 auto;
-}
-@media screen and (min-width: 480px) {
-  .conteiner {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .conteiner {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .conteiner {
-    width: 1200px;
-  }
+  width: 1280px;
 }
 
 .link-help {
   display: block;
-  margin-right: auto;
   margin-left: auto;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -64,10 +49,20 @@ img {
   color: #fff;
   background-color: #0085ff;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-help:hover, .link-help:focus {
+  background-color: #fd0;
+  color: #212121;
 }
 
 .header {
-  padding: 10px 0;
+  padding: 20px 0;
+}
+
+.header_box {
+  display: flex;
+  align-items: center;
 }
 
 .mob-menu_open,
@@ -104,10 +99,31 @@ img {
 .navigations {
   display: flex;
 }
+.navigations_list {
+  display: flex;
+  align-items: center;
+  margin-left: 600px;
+  margin-right: 20px;
+}
+.navigations_item:not(:last-child) {
+  margin-right: 20px;
+}
+.navigations_link {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #212121;
+  letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navigations_link:hover, .navigations_link:focus {
+  color: #0085ff;
+}
 
 .logo_icon {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   margin-right: 10px;
 }
 
@@ -120,6 +136,7 @@ img {
 }
 .logo_box {
   margin-right: auto;
+  margin-top: 5px;
 }
 .logo_tex {
   display: block;
@@ -127,7 +144,7 @@ img {
 }
 .logo_title {
   display: block;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 500;
   text-align: center;
 }/*# sourceMappingURL=main.css.map */
