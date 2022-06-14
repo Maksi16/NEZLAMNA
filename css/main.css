@@ -281,6 +281,8 @@ body {
 
 .team__img {
   width: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .team-box {
@@ -338,4 +340,43 @@ body {
 
 .master-soc-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.details {
+  padding: 40px 0;
+}
+
+.details_titel {
+  font-size: 36px;
+  line-height: 1.35;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.details_titel3 {
+  font-size: 30px;
+  line-height: 1.25;
+}
+
+.details_titel4 {
+  margin-bottom: 10px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.75;
+  color: #959595;
+}
+
+.details_list {
+  margin-bottom: 40px;
+}
+
+.details_item {
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.details_text {
+  font-size: 18px;
+  line-height: 1.75;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=main.css.map */
