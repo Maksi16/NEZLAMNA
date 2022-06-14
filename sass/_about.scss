@@ -2,6 +2,7 @@
   padding: 40px 0;
   &_box {
     display: flex;
+    margin-bottom: 40px;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #212121;
@@ -35,3 +36,27 @@
 // .about_soc-item:not(:last-child) {
 //   margin-right: 10px;
 // }
+.about_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.about_item {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 20px;
+  flex-basis: calc(100% / 2 - 30px);
+
+  background-color: #e8f354;
+  border-radius: 30px;
+}
+.about_text {
+  font-size: 20px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+.about_link {
+  font-weight: 700;
+  color: #212121;
+}
