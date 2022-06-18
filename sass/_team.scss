@@ -40,23 +40,32 @@
 }
 .team__img {
   width: auto;
+  height: 290px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .team-box {
   padding: 30px 0 16px 0;
+  text-align: center;
+}
+.team_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .team-name {
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
 
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
 }
 .team-prof {
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
