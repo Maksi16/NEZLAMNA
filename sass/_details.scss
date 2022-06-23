@@ -1,15 +1,24 @@
 .details {
-  padding: 40px 0;
+  padding: 20px 0;
+  @media screen and (min-width: 768px) {
+    padding: 40px 0;
+  }
 }
 .details_titel {
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.35;
   margin-bottom: 40px;
   text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+  }
 }
 .details_subtitle {
-  font-size: 30px;
+  font-size: 22px;
   line-height: 1.25;
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
 }
 .details_titel4 {
   margin-bottom: 10px;
@@ -22,8 +31,11 @@
   margin-bottom: 40px;
 }
 .details_item {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.75;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
 }
 .details_text {
   font-size: 18px;

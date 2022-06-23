@@ -17,9 +17,10 @@
   @media screen and (min-width: 768px) {
     width: 799px;
     margin-bottom: 20px;
-  }
 
-  font-size: 36px;
+    font-size: 36px;
+  }
+  font-size: 20px;
   line-height: 1.4;
 }
 .help_list {
@@ -31,7 +32,9 @@
   }
 }
 .help_item:first-child {
-  margin-bottom: 10px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 20px;
+  }
 }
 .help_link {
   display: block;
