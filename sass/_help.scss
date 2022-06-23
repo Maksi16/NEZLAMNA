@@ -2,6 +2,9 @@
   padding: 40px 0;
   position: relative;
 }
+.help__box {
+  display: flex;
+}
 
 .help_link {
   display: block;
@@ -38,9 +41,9 @@
   width: 799px;
 }
 .help_img {
-  position: absolute;
-  right: 0;
-  bottom: 0px;
+  margin-left: 100px;
+  margin-top: -40px;
+  margin-bottom: -40px;
   width: 350px;
   height: 100%;
 }
