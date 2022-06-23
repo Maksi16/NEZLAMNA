@@ -2,6 +2,9 @@
   width: 70px;
   height: 70px;
   margin-right: 10px;
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+  }
 }
 .logo {
   display: flex;

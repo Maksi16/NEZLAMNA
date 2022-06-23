@@ -1,13 +1,26 @@
 .footer {
-  padding: 40px 0;
+  padding: 20px 0;
   background-color: #2f303a;
+  @media screen and (min-width: 768px) {
+    padding: 40px 0;
+  }
 }
 .footer_wrap {
-  display: flex;
-  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .footer_box {
   color: #fff;
+}
+.footer__address {
+  @media screen and (max-width: 767px) {
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    text-align: center;
+  }
 }
 .footer__text {
   margin-bottom: 9px;
