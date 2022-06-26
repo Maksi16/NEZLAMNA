@@ -225,6 +225,7 @@ body {
 .help_img {
   width: 350px;
   height: 100%;
+  margin: auto;
 }
 @media screen and (min-width: 768px) {
   .help_img {
