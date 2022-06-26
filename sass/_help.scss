@@ -32,11 +32,11 @@
   }
 }
 .help_item:first-child {
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 20px;
   }
 }
-.help_link {
+.help__link {
   display: block;
 
   margin: auto;
@@ -56,6 +56,11 @@
   &:focus {
     background-color: $secondColor;
     color: #212121;
+  }
+  &--none {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
   }
 }
 .help_img {

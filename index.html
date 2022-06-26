@@ -57,7 +57,7 @@
               <span class="logo_title"> НЕЗЛАМНА</span>
             </div>
           </a>
-          <button class="mob-menu_open" type="button">
+          <button class="mob-menu__open" type="button">
             <svg class="mob-menu_icon" width="40" height="40">
               <use href="./images/icon.svg#icon-menu_40px"></use>
             </svg>
@@ -74,7 +74,34 @@
             </li>
           </ul>
         </nav>
-        <a class="help_link link" href="./payment-page.html">Підтримати</a>
+        <a class="help__link help__link--none link" href="./payment-page.html"
+          >Підтримати</a
+        >
+        <div class="mob-menu is-hidden">
+          <div class="conteiner mob-menu__box">
+            <div>
+              <button class="mob-menu__close" type="button">
+                <svg class="mob-menu_icon" width="40" height="40">
+                  <use href="./images/icon.svg#icon-close_40px"></use>
+                </svg>
+              </button>
+              <ul class="mob-menu__list list">
+                <li class="mob-menu__item">
+                  <a class="mob-menu__link link" href="#about">Хто ми</a>
+                </li>
+                <li class="mob-menu__item">
+                  <a class="mob-menu__link link" href="#team">Команда</a>
+                </li>
+                <li class="mob-menu__item">
+                  <a class="mob-menu__link link" href="#details">Реквізити</a>
+                </li>
+                <li class="mob-menu__item">
+                  <a class="mob-menu__link link" href="#contact">Контакти</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -88,12 +115,12 @@
             </p>
             <ul class="help_list list">
               <li class="help_item">
-                <a class="help_link link" href="./payment-page.html"
+                <a class="help__link link" href="./payment-page.html"
                   >Підтримати</a
                 >
               </li>
               <li class="help_item">
-                <a class="help_link link" href="">Як oтримати допомогу</a>
+                <a class="help__link link" href="">Як oтримати допомогу</a>
               </li>
             </ul>
           </div>
@@ -104,7 +131,7 @@
           />
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="conteiner">
           <div class="about_box">
             <h1 class="about_title">Чому нам можна довіряти?</h1>
@@ -182,7 +209,7 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="team" id="team">
         <div class="conteiner">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list">
@@ -523,7 +550,7 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
           </ul>
         </div>
       </section>
-      <section class="details">
+      <section class="details" id="details">
         <div class="conteiner">
           <h2 class="details_titel">РЕКВІЗИТИ ДЛЯ ПІДТРИМКИ</h2>
           <h3 class="details_subtitle">
@@ -726,5 +753,6 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
         </div>
       </div>
     </footer>
+    <script src="./js/mob-menu.js"></script>
   </body>
 </html>
