@@ -30,22 +30,22 @@ body {
   background-color: #fff;
 }
 
-.conteiner {
+.container {
   padding: 0 15px;
   margin: 0 auto;
 }
 @media screen and (min-width: 480px) {
-  .conteiner {
+  .container {
     width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
-  .conteiner {
+  .container {
     width: 768px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .conteiner {
+  .container {
     width: 1280px;
   }
 }
@@ -488,6 +488,17 @@ body {
     padding: 40px 0;
   }
 }
+.details .payment_gateways_block {
+  padding-bottom: 50px;
+}
+.details .payment_gateways_block .payment_gateways {
+  width: 70%;
+  margin: 0 auto;
+}
+.details .payment_gateways_block .payment_gateways .liqpay {
+  min-width: 300px;
+  text-align: center;
+}
 
 .details_titel {
   font-size: 28px;
@@ -621,4 +632,6 @@ body {
 }
 .socials__link:hover, .socials__link:focus {
   background-color: #0085ff;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
