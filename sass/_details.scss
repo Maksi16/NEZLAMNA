@@ -9,7 +9,11 @@
 
     .payment_gateways {
       width: 70%;
-      margin: 0 auto;
+      text-align: center;
+
+      @media screen and (min-width: 768px) {
+        width: 100%;
+      }
 
       .liqpay {
         //width: 50%;
@@ -62,7 +66,4 @@
   font-size: 18px;
   line-height: 1.75;
   margin-bottom: 40px;
-}
-.payment_gateways {
-  text-align: center;
 }
