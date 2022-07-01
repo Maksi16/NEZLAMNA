@@ -570,6 +570,22 @@ span.sim-dot {
   cursor: pointer;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+
+.gallery__box {
+  outline: 1px solid red;
+  background-color: aqua;
+  transition: scale 1s;
+}
+.gallery__box:hover {
+  transform: scale(1.5);
+}
+
 .details {
   padding: 20px 0;
 }
