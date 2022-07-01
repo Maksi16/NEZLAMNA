@@ -3,7 +3,23 @@
   @media screen and (min-width: 768px) {
     padding: 40px 0;
   }
+
+  .payment_gateways_block {
+    padding-bottom: 50px;
+
+    .payment_gateways {
+      width: 70%;
+      margin: 0 auto;
+
+      .liqpay {
+        //width: 50%;
+        min-width: 300px;
+        text-align: center;
+      }
+    }
+  }
 }
+
 .details_titel {
   font-size: 28px;
   line-height: 1.35;
@@ -13,6 +29,7 @@
     font-size: 36px;
   }
 }
+
 .details_subtitle {
   font-size: 22px;
   line-height: 1.25;
@@ -20,6 +37,7 @@
     font-size: 30px;
   }
 }
+
 .details_titel4 {
   margin-bottom: 10px;
   margin: 0;
@@ -27,9 +45,11 @@
   line-height: 1.75;
   color: #959595;
 }
+
 .details_list {
   margin-bottom: 40px;
 }
+
 .details_item {
   font-size: 14px;
   line-height: 1.75;
@@ -37,6 +57,7 @@
     font-size: 18px;
   }
 }
+
 .details_text {
   font-size: 18px;
   line-height: 1.75;
