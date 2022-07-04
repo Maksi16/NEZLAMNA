@@ -15,6 +15,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- Галерея -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/lightgallery/css/lightgallery.css"
+    />
+    <!-- lightgallery plugins -->
+    <link rel="stylesheet" href="./node_modules/lightgallery/css/lg-zoom.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/lightgallery/css/lg-thumbnail.css"
+    />
+
+    <!-- OR -->
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/lightgallery/css/lightgallery-bundle.css"
+    />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -83,7 +101,9 @@
               </button>
               <ul class="mob-menu__list list">
                 <li class="mob-menu__item">
-                  <a class="mob-menu__link link close" href="/offer.html">Оферта</a>
+                  <a class="mob-menu__link link close" href="/offer.html"
+                    >Оферта</a
+                  >
                 </li>
                 <li class="mob-menu__item">
                   <a class="mob-menu__link link close" href="#about">Хто ми</a>
@@ -560,188 +580,39 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
       </section>
       <section class="gallery">
         <div class="conteiner">
-          <!--СЛАЙДЕР КАРТИНОК-->
-          <!-- <div class="swiper img-slider"> -->
-          <!-- КНОПКА ОТКРЫТИЯ СЛАЙДЕРА -->
-          <!-- <button
-              type="button"
-              class="img-slider-close-btn"
-              aria-label="gallery close button"
-            >
-              <svg class="img-slider-icon">
-                <use href="./images/icons/icons.svg#icon-close-2"></use>
-              </svg>
-            </button> -->
-
-          <!--ОБВЕРТКА СЛАЙДЕРА -->
-          <!-- <div class="swiper-wrapper img-slider-wrapper"> -->
-          <!-- СЛАЙДЫ -->
-          <!-- <div class="swiper-slide img-slider-slide">
-                <div class="img-slider-thumb">
-                  <img
-                    src="./images/gellary/01.jpeg "
-                    alt="pistachio ice lolly"
-                    class="img-slider-img"
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide img-slider-slide">
-                <div class="img-slider-thumb">
-                  <img
-                    src="./images/gellary/02.jpeg "
-                    alt="ice cream cone"
-                    class="img-slider-img"
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide img-slider-slide">
-                <div class="img-slider-thumb">
-                  <img
-                    src="./images/gellary/03.jpeg "
-                    alt="raspberry ice lolly"
-                    class="img-slider-img"
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide img-slider-slide">
-                <div class="img-slider-thumb">
-                  <img
-                    src="./images/gellary/04.jpeg "
-                    alt="the girl is eating the ice cream cone"
-                    class="img-slider-img"
-                  />
-                </div>
-              </div>
-              <div class="swiper-slide img-slider-slide">
-                <div class="img-slider-thumb">
-                  <img
-                    src="./images/gellary/05.jpeg "
-                    alt="several ice cream cones"
-                    class="img-slider-img"
-                  />
-                </div>
-              </div>
-              ...
-            </div> -->
-
-          <!-- НАВИГАЦИЯ-->
-          <!-- <div class="swiper-button-prev img-slider-btn-prev"></div>
-            <div class="swiper-button-next img-slider-btn-next"></div> -->
-
-          <!-- ПАГИНАЦИЯ -->
-          <!-- <div class="swiper-pagination img-slider-pagination"></div> -->
-          <!-- СКРОЛЛБАР-->
-          <!-- <div class="swiper-scrollbar"></div> -->
-          <!-- </div> -->
-
-          <!-- ГАЛЕРЕЯ -->
-          <!-- <ul class="gallery-grid">
-          <li class="gallery-item">
-            <div class="gallery-thumb">
-              <img
-                src="./images/gellary/01.jpeg"
-                alt=""
-                class="gallery-img"
-                id="0"
-              />
-            </div>
-          </li>
-          <li class="gallery-item">
-            <div class="gallery-thumb">
-              <img
-                src="./images/gellary/02.jpeg"
-                alt=""
-                class="gallery-img"
-                id="1"
-              />
-            </div>
-          </li>
-          <li class="gallery-item">
-            <div class="gallery-thumb">
-              <img
-                src="./images/gellary/03.jpeg"
-                alt=""
-                class="gallery-img"
-                id="3"
-              />
-            </div>
-          </li>
-          <li class="gallery-item">
-            <div class="gallery-thumb">
-              <img
-                src="./images/gellary/04.jpeg"
-                alt=""
-                class="gallery-img"
-                id="4"
-              />
-            </div>
-          </li>
-          <li class="gallery-item">
-            <div class="gallery-thumb">
-              <img
-                src="./images/gellary/05.jpeg"
-                alt=""
-                class="gallery-img"
-                id="5"
-              />
-            </div>
-          </li>
-        </ul> -->
-          <!-- // ------ gallery ------ -->
-<!--          <div class="wrapper">-->
-<!--            <div class="gallery__box">-->
-<!--              <img src="./images/gellary/01.jpeg" alt="" />-->
-<!--            </div>-->
-<!--            <div class="gallery__box">-->
-<!--              <img src="./images/gellary/02.jpeg" alt="" />-->
-<!--            </div>-->
-<!--            <div class="gallery__box">-->
-<!--              <img src="./images/gellary/03.jpeg" alt="" />-->
-<!--            </div>-->
-<!--            <div class="gallery__box">-->
-<!--              <img src="./images/gellary/04.jpeg" alt="" />-->
-<!--            </div>-->
-<!--            <div class="gallery__box">-->
-<!--              <img src="./images/gellary/05.jpeg" alt="" />-->
-<!--            </div>-->
-<!--          </div>-->
-
-          <!-- <div class="sim-slider">
-          <ul class="sim-slider-list">
-            <li>
-              <img src="./images/gellary/01.jpeg" alt="screen" />
-            </li> -->
-          <!-- это экран -->
-          <!-- <li class="sim-slider-element">
-              <img src="./images/gellary/02.jpeg" alt="0" />
-            </li>
-            <li class="sim-slider-element">
-              <img src="./images/gellary/03.jpeg" alt="1" />
-            </li>
-            <li class="sim-slider-element">
-              <img src="./images/gellary/04.jpeg" alt="2" />
-            </li>
-            <li class="sim-slider-element">
-              <img src="" alt="3" />
-            </li>
-            <li class="sim-slider-element">
-              <img src="" alt="4" />
-            </li>
-            <li class="sim-slider-element">
-              <img src="" alt="5" />
-            </li>
-          </ul>
-          <div class="sim-slider-arrow-left"></div>
-          <div class="sim-slider-arrow-right"></div>
-          <div class="sim-slider-dots"></div>
-        </div> -->
+          <div id="lightgallery">
+            <a href="./images/gellary/01.jpeg" data-lg-size="1280-720">
+              <img alt=".." src="./images/gellary/01.jpeg" />
+            </a>
+            <a href="./images/gellary/02.jpeg" data-lg-size="-1280-720">
+              <img alt=".." src="./images/gellary/02.jpeg" />
+            </a>
+            <a href="./images/gellary/03.jpeg" data-lg-size="-1280-720">
+              <img alt=".." src="./images/gellary/03.jpeg" />
+            </a>
+            <a href="./images/gellary/04.jpeg" data-lg-size="-1280-720">
+              <img alt=".." src="./images/gellary/04.jpeg" />
+            </a>
+          </div>
         </div>
       </section>
       <section class="details" id="details">
         <div class="container">
           <div class="payment_gateways_block">
-            <h2 class="details_titel" style=" margin-bottom: 0;">Реквізити для оплати</h2>
-            <div style="color: grey; font-size: 13px; text-align: center; margin-bottom: 40px; font-weight: bold">(Важливо: при оплаті надає згоду на те, що оплата не повертається)</div>
+            <h2 class="details_titel" style="margin-bottom: 0">
+              Реквізити для оплати
+            </h2>
+            <div
+              style="
+                color: grey;
+                font-size: 13px;
+                text-align: center;
+                margin-bottom: 40px;
+                font-weight: bold;
+              "
+            >
+              (Важливо: при оплаті надає згоду на те, що оплата не повертається)
+            </div>
             <h3 class="details_titel">Платіжні системи</h3>
             <div class="payment_gateways">
               <div class="liqpay">
@@ -950,8 +821,11 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
           </ul>
           <ul class="footer__contact list">
             <li class="footer__item">
-              <a class="footer__link link"  style="color: white" href="files/Статут.pdf"
-              >Статут</a
+              <a
+                class="footer__link link"
+                style="color: white"
+                href="files/Статут.pdf"
+                >Статут</a
               >
             </li>
           </ul>
@@ -1008,9 +882,18 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
     </footer>
     <script src="./js/mob-menu.js"></script>
     <script src="./js/menu-close.js"></script>
+    <!-- Галерея -->
+    <script src="./node_modules/lightgallery/lightgallery.umd.js"></script>
+    <!-- lightgallery plugins -->
+    <script src="./node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="./node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js"></script>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./js/swiper.js"></script>
-    <script src="./js/gallery.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById('lightgallery'), {
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+        licenseKey: 'your_license_key',
+      });
+    </script>
   </body>
 </html>
