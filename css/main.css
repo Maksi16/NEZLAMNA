@@ -573,10 +573,10 @@ ul.tab li {
 }
 
 ul.tab li a {
-  display: inline-block;
+  display: flex;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 30px;
   text-decoration: none;
   transition: 0.3s;
   font-size: 17px;
@@ -622,6 +622,7 @@ ul.tab li a:focus,
 }
 .tablinks_img {
   display: inline;
+  margin-right: 10px;
 }
 
 .offer {
