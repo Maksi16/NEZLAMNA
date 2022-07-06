@@ -65,7 +65,15 @@
     font-size: 18px;
   }
 }
-
+.details_btn {
+  border: transparent;
+  background-color: transparent;
+  margin-left: 5px;
+  &:hover,
+  &:focus {
+    fill: $brandColor;
+  }
+}
 .details_text {
   font-size: 18px;
   line-height: 1.75;
@@ -82,6 +90,7 @@ ul.tab {
 }
 ul.tab li {
   float: left;
+  width: 25%;
 }
 ul.tab li a {
   display: flex;

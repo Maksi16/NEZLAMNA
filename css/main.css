@@ -553,6 +553,15 @@ body {
   }
 }
 
+.details_btn {
+  border: transparent;
+  background-color: transparent;
+  margin-left: 5px;
+}
+.details_btn:hover, .details_btn:focus {
+  fill: #0085ff;
+}
+
 .details_text {
   font-size: 18px;
   line-height: 1.75;
@@ -570,6 +579,7 @@ ul.tab {
 
 ul.tab li {
   float: left;
+  width: 25%;
 }
 
 ul.tab li a {
