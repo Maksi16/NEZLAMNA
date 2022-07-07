@@ -1,4 +1,4 @@
-function openCountry(evt, countryName) {
+function openCurrency(evt, countryName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
