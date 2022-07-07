@@ -57,6 +57,19 @@ body {
   visibility: hidden;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .header {
   height: 115px;
   padding: 15px 0;
@@ -139,7 +152,7 @@ body {
   .navigations_list {
     display: flex;
     align-items: center;
-    margin-left: 600px;
+    margin-left: 500px;
     margin-right: 20px;
   }
 }
@@ -819,6 +832,22 @@ ul.tab li a:focus,
   orphans: 2;
   widows: 2;
   text-align: left;
+}
+
+.about-us {
+  padding: 40px 0;
+}
+.about-us_text {
+  font-size: 18px;
+  line-height: 1.75;
+}
+.about-us_wrap {
+  font-size: 20px;
+  font-weight: 700;
+}
+.about-us_item {
+  font-size: 18px;
+  line-height: 1.75;
 }
 
 .documents {
