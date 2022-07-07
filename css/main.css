@@ -560,6 +560,7 @@ body {
 }
 .details_btn:hover, .details_btn:focus {
   fill: #0085ff;
+  cursor: pointer;
 }
 
 .details_text {

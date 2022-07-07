@@ -58,22 +58,28 @@
 .details_item {
   font-size: 14px;
   line-height: 1.75;
+
   &--bold {
     font-weight: 700;
   }
+
   @media screen and (min-width: 768px) {
     font-size: 18px;
   }
 }
+
 .details_btn {
   border: transparent;
   background-color: transparent;
   margin-left: 5px;
+
   &:hover,
   &:focus {
     fill: $brandColor;
+    cursor: pointer;
   }
 }
+
 .details_text {
   font-size: 18px;
   line-height: 1.75;
@@ -88,10 +94,12 @@ ul.tab {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
+
 ul.tab li {
   float: left;
   width: 25%;
 }
+
 ul.tab li a {
   display: flex;
   color: black;
@@ -101,19 +109,23 @@ ul.tab li a {
   transition: 0.3s;
   font-size: 17px;
 }
+
 ul.tab li a:hover {
   background-color: #ddd;
 }
+
 ul.tab li a:focus,
 .active {
   background-color: #ccc;
 }
+
 .tabcontent {
   display: none;
   padding: 12px 12px;
   border: 1px solid #ccc;
   border-top: none;
 }
+
 .tabcontent {
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
