@@ -89,7 +89,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .mob-menu__open,
-  .mob-menu__close {
+.mob-menu__close {
     display: none;
   }
 }
