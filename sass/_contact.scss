@@ -1,0 +1,56 @@
+.contact-page {
+  .contact {
+    min-height: calc(100vh - 295px);
+    padding: 20px;
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 737px) {
+    .contact {
+      padding: 40px 0;
+    }
+  }
+
+  @media screen and (max-width: 737px) {
+    .contact__box {
+      display: flex;
+    }
+  }
+
+  .contact__wrap {
+    margin-bottom: 20px;
+    width: 100%;
+    white-space: nowrap;
+
+    .title {
+      font-size: 1.5rem;
+      padding-bottom: 20px;
+      padding-top: 10px;
+    }
+
+    p {
+      color: #424242;
+      font-size: 16px;
+    }
+
+    a {
+      font-weight: bold;
+    }
+
+    .half-block {
+      width: 50%;
+      display: inline-block;
+      white-space: normal;
+      vertical-align: top;
+    }
+
+
+    @media screen and (max-width: 737px) {
+      .half-block {
+        width: 100%;
+        display: block;
+      }
+    }
+
+  }
+}
