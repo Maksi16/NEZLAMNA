@@ -45,7 +45,7 @@
 }
 .team__img {
   width: auto;
-  height: 290px;
+  //height: 290px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -108,5 +108,18 @@
   &:focus {
     fill: #fff;
     background-color: $brandColor;
+  }
+}
+
+@media (max-width: 767px) {
+  .team__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .team__item {
+    padding-top: 0;
+    width: 45%;
   }
 }

@@ -429,7 +429,6 @@ body {
 
 .team__img {
   width: auto;
-  height: 290px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -495,6 +494,17 @@ body {
   background-color: #0085ff;
 }
 
+@media (max-width: 767px) {
+  .team__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .team__item {
+    padding-top: 0;
+    width: 45%;
+  }
+}
 .details {
   padding: 20px 0;
 }
