@@ -575,11 +575,11 @@ ul.tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+  display: flex;
 }
 
 ul.tab li {
-  float: left;
-  width: 25%;
+  flex: 25%;
 }
 
 ul.tab li a {
@@ -590,6 +590,13 @@ ul.tab li a {
   text-decoration: none;
   transition: 0.3s;
   font-size: 17px;
+}
+@media (max-width: 767px) {
+  ul.tab li a {
+    padding: 15px 10px;
+    align-items: center;
+    height: 100%;
+  }
 }
 
 ul.tab li a:hover {
@@ -632,6 +639,11 @@ ul.tab li a:focus,
 .tablinks_img {
   display: inline;
   margin-right: 10px;
+}
+@media (max-width: 767px) {
+  .tablinks_img {
+    width: 5vw;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1357,6 +1369,11 @@ footer .containerF .logo-slogan .buttons a.helpBtn {
   color: #FFE248;
   border: 1px solid #FFE248;
 }
+@media (min-width: 767px) {
+  footer .containerF .contacts {
+    width: 34%;
+  }
+}
 footer .containerF .contacts h3 {
   padding-top: 64px;
   color: white;
@@ -1445,6 +1462,17 @@ footer p.bottom-name {
     flex-wrap: wrap;
     width: auto;
     margin: 0 10%;
+  }
+}
+@media (min-width: 767px) and (max-width: 900px) {
+  footer .containerF {
+    width: 757px;
+  }
+  footer .containerF .logo-slogan .buttons a {
+    padding: 20px;
+  }
+  footer .containerF .contacts .socMedia a img {
+    width: 50px;
   }
 }
 

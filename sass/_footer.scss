@@ -137,6 +137,9 @@ footer {
       }
     }
     .contacts {
+      @media (min-width: 767px) {
+        width: 34%;
+      }
       h3 {
         padding-top: 64px;
         color: white;
@@ -242,6 +245,25 @@ footer {
       flex-wrap: wrap;
       width: auto;
       margin: 0 10%;
+    }
+  }
+  @media (min-width:767px) and (max-width: 900px) {
+    .containerF {
+      width: 757px;
+
+      .logo-slogan {
+        .buttons a {
+          padding: 20px;
+        }
+      }
+
+      .contacts {
+        .socMedia {
+          a img {
+            width: 50px;
+          }
+        }
+      }
     }
   }
 }
