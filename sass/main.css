@@ -152,7 +152,7 @@ body {
   .navigations_list {
     display: flex;
     align-items: center;
-    margin-left: 500px;
+    margin-left: 380px;
     margin-right: 20px;
   }
 }
