@@ -1,8 +1,5 @@
 .details {
   padding: 20px 0;
-  @media screen and (min-width: 768px) {
-    padding: 40px 0;
-  }
 
   .payment_gateways_block {
     padding-bottom: 50px;
@@ -10,10 +7,6 @@
     .payment_gateways {
       width: 70%;
       text-align: center;
-
-      @media screen and (min-width: 768px) {
-        width: 100%;
-      }
 
       .liqpay {
         //width: 50%;
@@ -24,23 +17,17 @@
   }
 }
 
+
 .details_titel {
   font-size: 28px;
   line-height: 1.35;
   margin-bottom: 40px;
   text-align: center;
-  @media screen and (min-width: 768px) {
-    font-size: 36px;
-  }
 }
 
 .details_subtitle {
   font-size: 22px;
   line-height: 1.25;
-  @media screen and (min-width: 768px) {
-    font-size: 30px;
-    padding-bottom: 15px;
-  }
 }
 
 .details_titel4 {
@@ -63,9 +50,6 @@
     font-weight: 700;
   }
 
-  @media screen and (min-width: 768px) {
-    font-size: 18px;
-  }
 }
 
 .details_btn {
@@ -152,4 +136,29 @@ ul.tab li a:focus,
 .tablinks_img {
   display: inline;
   margin-right: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .details {
+    padding: 40px 0;
+
+    .payment_gateways_block {
+      .payment_gateways {
+        width: 100%;
+      }
+    }
+  }
+  .details_titel {
+    font-size: 36px;
+  }
+
+  .details_subtitle {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+
+  .details_item {
+    font-size: 18px;
+  }
 }
