@@ -104,7 +104,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .mob-menu__open,
-  .mob-menu__close {
+.mob-menu__close {
     display: none;
   }
 }
@@ -512,7 +512,6 @@ body {
   padding-bottom: 50px;
 }
 .details .payment_gateways_block .payment_gateways {
-  width: 70%;
   text-align: center;
 }
 .details .payment_gateways_block .payment_gateways .liqpay {
@@ -649,9 +648,6 @@ ul.tab li a:focus,
 @media screen and (max-width: 767px) {
   .details {
     padding: 40px 0;
-  }
-  .details .payment_gateways_block .payment_gateways {
-    width: 100%;
   }
   .details_titel {
     font-size: 36px;

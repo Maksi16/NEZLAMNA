@@ -5,7 +5,6 @@
     padding-bottom: 50px;
 
     .payment_gateways {
-      width: 70%;
       text-align: center;
 
       .liqpay {
@@ -154,12 +153,6 @@ ul.tab li a:focus,
 @media screen and (max-width: 767px) {
   .details {
     padding: 40px 0;
-
-    .payment_gateways_block {
-      .payment_gateways {
-        width: 100%;
-      }
-    }
   }
   .details_titel {
     font-size: 36px;
