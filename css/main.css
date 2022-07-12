@@ -921,41 +921,58 @@ ul.tab li a:focus,
 
 .contact-page .contact {
   min-height: calc(100vh - 295px);
-  padding: 20px;
   line-height: 1.5;
-}
-@media screen and (max-width: 737px) {
-  .contact-page .contact {
-    padding: 40px 0;
-  }
 }
 @media screen and (max-width: 737px) {
   .contact-page .contact__box {
     display: flex;
   }
 }
+.contact-page .contact__img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  max-width: 1460px;
+  min-height: 340px;
+  background-image: url(../images/foncontact.jpg);
+  background-position: center;
+}
 .contact-page .contact__wrap {
   margin-bottom: 20px;
   width: 100%;
   white-space: nowrap;
 }
+.contact-page .contact__wrap .contact__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.76;
+  color: #000000;
+}
+.contact-page .contact__wrap .contact__item img {
+  margin-right: 12px;
+}
 .contact-page .contact__wrap .title {
-  font-size: 1.5rem;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.69;
+  margin-bottom: 25px;
 }
 .contact-page .contact__wrap p {
   color: #424242;
   font-size: 16px;
 }
 .contact-page .contact__wrap a {
-  font-weight: bold;
+  color: #000000;
 }
 .contact-page .contact__wrap .half-block {
   width: 50%;
   display: inline-block;
   white-space: normal;
   vertical-align: top;
+  padding-bottom: 316px;
 }
 @media screen and (max-width: 737px) {
   .contact-page .contact__wrap .half-block {
@@ -1328,8 +1345,6 @@ footer {
   background: #163530;
 }
 footer .containerF {
-  width: 900px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -1359,7 +1374,7 @@ footer .containerF .logo-slogan .buttons a:hover {
   transform: scale(1.08);
 }
 footer .containerF .logo-slogan .buttons a.supportBtn {
-  background: #FFE248;
+  background: #ffe248;
   color: #163530;
 }
 footer .containerF .logo-slogan .buttons a.supportBtn img {
@@ -1367,13 +1382,8 @@ footer .containerF .logo-slogan .buttons a.supportBtn img {
   margin-right: 10px;
 }
 footer .containerF .logo-slogan .buttons a.helpBtn {
-  color: #FFE248;
-  border: 1px solid #FFE248;
-}
-@media (min-width: 767px) {
-  footer .containerF .contacts {
-    width: 34%;
-  }
+  color: #ffe248;
+  border: 1px solid #ffe248;
 }
 footer .containerF .contacts h3 {
   padding-top: 64px;
@@ -1398,7 +1408,7 @@ footer .containerF .contacts > p a:hover {
 }
 footer .containerF .contacts .socMedia {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 33px;
   margin-bottom: 88px;
 }
@@ -1408,6 +1418,9 @@ footer .containerF .contacts .socMedia a {
 }
 footer .containerF .contacts .socMedia a:hover {
   transform: scale(1.2);
+}
+footer .containerF .contacts .socMedia a:not(:last-child) {
+  margin-right: 15px;
 }
 footer .bottom-menu {
   width: 500px;
@@ -1430,7 +1443,7 @@ footer p.bottom-name {
   font-weight: 600;
   font-size: 14px;
   text-align: center;
-  color: #8A9A97;
+  color: #8a9a97;
 }
 @media (max-width: 767px) {
   footer .containerF {
