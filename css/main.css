@@ -141,6 +141,9 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.mob-menu__link.marked {
+  text-decoration: underline;
+}
 
 .navigations {
   display: flex;
@@ -167,6 +170,9 @@ body {
 }
 .navigations_link:hover, .navigations_link:focus {
   color: #0085ff;
+}
+.navigations_link.marked {
+  text-decoration: underline;
 }
 
 .logo_icon {
@@ -529,6 +535,7 @@ body {
 .details_subtitle {
   font-size: 22px;
   line-height: 1.25;
+  padding-bottom: 20px;
 }
 
 .details_titel4 {

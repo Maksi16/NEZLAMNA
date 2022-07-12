@@ -10,9 +10,11 @@
       margin-right: 20px;
     }
   }
+
   &_item:not(:last-child) {
     margin-right: 20px;
   }
+
   &_link {
     font-size: 14px;
     line-height: 1.4;
@@ -23,6 +25,10 @@
     &:hover,
     &:focus {
       color: $brandColor;
+    }
+
+    &.marked {
+      text-decoration: underline;
     }
   }
 }
