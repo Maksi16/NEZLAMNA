@@ -506,6 +506,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .team__item {
     padding-top: 0;
     width: 45%;
@@ -623,7 +624,8 @@ ul.tab li a:focus,
 
 .tabcontent {
   -webkit-animation: fadeEffect 1s;
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  animation: fadeEffect 1s;
+  /* Fading effect takes 1 second */
 }
 
 @-webkit-keyframes fadeEffect {
@@ -656,13 +658,16 @@ ul.tab li a:focus,
   .details {
     padding: 40px 0;
   }
+
   .details_titel {
     font-size: 36px;
   }
+
   .details_subtitle {
     font-size: 30px;
     padding-bottom: 15px;
   }
+
   .details_item {
     font-size: 18px;
   }
@@ -1477,6 +1482,4 @@ footer p.bottom-name {
   footer .containerF .contacts .socMedia a img {
     width: 50px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
