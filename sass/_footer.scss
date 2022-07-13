@@ -118,17 +118,29 @@ footer {
           }
         }
         a.supportBtn {
+          width: 287px;
+          height: 76px;
+          justify-content: center;
           background: #ffe248;
           color: #163530;
-
+          @media (min-width: 767px) {
+            width: 252px;
+            margin-right: 12px;
+          }
           img {
             display: inline-block;
             margin-right: 10px;
           }
         }
         a.helpBtn {
+          width: 287px;
+          height: 76px;
           color: #ffe248;
           border: 1px solid #ffe248;
+          justify-content: center;
+          @media (min-width: 767px) {
+            width: 305px;
+          }
         }
       }
     }
@@ -227,7 +239,7 @@ footer {
 
           a:first-child {
             margin-bottom: 10px;
-            width: auto;
+            // width: auto;
           }
         }
       }

@@ -1376,16 +1376,33 @@ footer .containerF .logo-slogan .buttons a:hover {
   transform: scale(1.08);
 }
 footer .containerF .logo-slogan .buttons a.supportBtn {
+  width: 287px;
+  height: 76px;
+  justify-content: center;
   background: #ffe248;
   color: #163530;
+}
+@media (min-width: 767px) {
+  footer .containerF .logo-slogan .buttons a.supportBtn {
+    width: 252px;
+    margin-right: 12px;
+  }
 }
 footer .containerF .logo-slogan .buttons a.supportBtn img {
   display: inline-block;
   margin-right: 10px;
 }
 footer .containerF .logo-slogan .buttons a.helpBtn {
+  width: 287px;
+  height: 76px;
   color: #ffe248;
   border: 1px solid #ffe248;
+  justify-content: center;
+}
+@media (min-width: 767px) {
+  footer .containerF .logo-slogan .buttons a.helpBtn {
+    width: 305px;
+  }
 }
 footer .containerF .contacts h3 {
   padding-top: 64px;
@@ -1466,7 +1483,6 @@ footer p.bottom-name {
   }
   footer .containerF .logo-slogan .buttons a:first-child {
     margin-bottom: 10px;
-    width: auto;
   }
   footer .containerF .contacts h3 {
     text-align: center;
