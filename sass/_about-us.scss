@@ -1,15 +1,60 @@
 .about-us {
-  padding: 40px 0;
-  &_text {
-    font-size: 18px;
-    line-height: 1.75;
+  padding-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 135px;
   }
-  &_wrap {
-    font-size: 20px;
-    font-weight: 700;
+  &_text {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.76;
   }
   &_item {
-    font-size: 18px;
-    line-height: 1.75;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.76;
+  }
+}
+.about-us_list {
+  padding-left: 25px;
+}
+.about-us__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-us__wrap {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: calc(100% / 2 - 40px);
+  }
+  @media screen and (min-width: 1280px) {
+    width: calc(100% / 2 - 94px);
+  }
+  &:nth-child(2) {
+    margin-right: auto;
+  }
+  &:not(:last-child) {
+    margin-bottom: 48px;
+  }
+}
+
+.about-us_title {
+  margin-bottom: 9px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.79;
+}
+.about-us__box {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+
+  height: 170px;
+  background-image: url(../images/about_fon_mob.jpg);
+  background-position: center;
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/about_fon.jpg);
+    height: 340px;
+    background-repeat: no-repeat;
   }
 }

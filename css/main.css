@@ -27,7 +27,7 @@ body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #000000;
   background-color: #fff;
 }
 
@@ -852,19 +852,74 @@ ul.tab li a:focus,
 }
 
 .about-us {
-  padding: 40px 0;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .about-us {
+    padding-bottom: 135px;
+  }
 }
 .about-us_text {
-  font-size: 18px;
-  line-height: 1.75;
-}
-.about-us_wrap {
-  font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.76;
 }
 .about-us_item {
-  font-size: 18px;
-  line-height: 1.75;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.76;
+}
+
+.about-us_list {
+  padding-left: 25px;
+}
+
+.about-us__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-us__wrap {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .about-us__wrap {
+    width: calc(50% - 40px);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about-us__wrap {
+    width: calc(50% - 94px);
+  }
+}
+.about-us__wrap:nth-child(2) {
+  margin-right: auto;
+}
+.about-us__wrap:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+.about-us_title {
+  margin-bottom: 9px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.79;
+}
+
+.about-us__box {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+  height: 170px;
+  background-image: url(../images/about_fon_mob.jpg);
+  background-position: center;
+}
+@media screen and (min-width: 768px) {
+  .about-us__box {
+    background-image: url(../images/about_fon.jpg);
+    height: 340px;
+    background-repeat: no-repeat;
+  }
 }
 
 .documents {
@@ -1477,6 +1532,4 @@ footer p.bottom-name {
   footer .containerF .contacts .socMedia a img {
     width: 50px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
