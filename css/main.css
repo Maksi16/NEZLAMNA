@@ -978,17 +978,26 @@ ul.tab li a:focus,
 
 .contact-page .contact {
   min-height: calc(100vh - 295px);
-  padding: 20px;
   line-height: 1.5;
-}
-@media screen and (max-width: 737px) {
-  .contact-page .contact {
-    padding: 40px 0;
-  }
 }
 @media screen and (max-width: 737px) {
   .contact-page .contact__box {
     display: flex;
+  }
+}
+.contact-page .contact__img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  height: 340px;
+  background-image: url(../images/contact/foncontact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 737px) {
+  .contact-page .contact__img {
+    background-image: url(../images/contact/contact_fon_mob.jpg);
+    height: 170px;
   }
 }
 .contact-page .contact__wrap {
@@ -996,28 +1005,43 @@ ul.tab li a:focus,
   width: 100%;
   white-space: nowrap;
 }
+.contact-page .contact__wrap .contact__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.76;
+  color: #000000;
+}
+.contact-page .contact__wrap .contact__item img {
+  margin-right: 12px;
+}
 .contact-page .contact__wrap .title {
-  font-size: 1.5rem;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.69;
+  margin-bottom: 25px;
 }
 .contact-page .contact__wrap p {
   color: #424242;
   font-size: 16px;
 }
 .contact-page .contact__wrap a {
-  font-weight: bold;
+  color: #000000;
 }
 .contact-page .contact__wrap .half-block {
   width: 50%;
   display: inline-block;
   white-space: normal;
   vertical-align: top;
+  padding-bottom: 316px;
 }
 @media screen and (max-width: 737px) {
   .contact-page .contact__wrap .half-block {
     width: 100%;
     display: block;
+    padding-bottom: 40px;
   }
 }
 
@@ -1385,8 +1409,6 @@ footer {
   background: #163530;
 }
 footer .containerF {
-  width: 900px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -1416,20 +1438,32 @@ footer .containerF .logo-slogan .buttons a:hover {
   transform: scale(1.08);
 }
 footer .containerF .logo-slogan .buttons a.supportBtn {
-  background: #FFE248;
+  width: 287px;
+  height: 76px;
+  justify-content: center;
+  background: #ffe248;
   color: #163530;
+}
+@media (min-width: 767px) {
+  footer .containerF .logo-slogan .buttons a.supportBtn {
+    width: 252px;
+    margin-right: 12px;
+  }
 }
 footer .containerF .logo-slogan .buttons a.supportBtn img {
   display: inline-block;
   margin-right: 10px;
 }
 footer .containerF .logo-slogan .buttons a.helpBtn {
-  color: #FFE248;
-  border: 1px solid #FFE248;
+  width: 287px;
+  height: 76px;
+  color: #ffe248;
+  border: 1px solid #ffe248;
+  justify-content: center;
 }
 @media (min-width: 767px) {
-  footer .containerF .contacts {
-    width: 34%;
+  footer .containerF .logo-slogan .buttons a.helpBtn {
+    width: 305px;
   }
 }
 footer .containerF .contacts h3 {
@@ -1455,7 +1489,7 @@ footer .containerF .contacts > p a:hover {
 }
 footer .containerF .contacts .socMedia {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 33px;
   margin-bottom: 88px;
 }
@@ -1465,6 +1499,9 @@ footer .containerF .contacts .socMedia a {
 }
 footer .containerF .contacts .socMedia a:hover {
   transform: scale(1.2);
+}
+footer .containerF .contacts .socMedia a:not(:last-child) {
+  margin-right: 15px;
 }
 footer .bottom-menu {
   width: 500px;
@@ -1487,7 +1524,7 @@ footer p.bottom-name {
   font-weight: 600;
   font-size: 14px;
   text-align: center;
-  color: #8A9A97;
+  color: #8a9a97;
 }
 @media (max-width: 767px) {
   footer .containerF {
@@ -1508,7 +1545,6 @@ footer p.bottom-name {
   }
   footer .containerF .logo-slogan .buttons a:first-child {
     margin-bottom: 10px;
-    width: auto;
   }
   footer .containerF .contacts h3 {
     text-align: center;
