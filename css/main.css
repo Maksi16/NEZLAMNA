@@ -500,7 +500,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
   .team__item {
     padding-top: 0;
     width: 45%;
@@ -617,8 +616,7 @@ ul.tab li a:focus,
 
 .tabcontent {
   -webkit-animation: fadeEffect 1s;
-  animation: fadeEffect 1s;
-  /* Fading effect takes 1 second */
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 
 @-webkit-keyframes fadeEffect {
@@ -651,16 +649,13 @@ ul.tab li a:focus,
   .details {
     padding: 40px 0;
   }
-
   .details_titel {
     font-size: 36px;
   }
-
   .details_subtitle {
     font-size: 30px;
     padding-bottom: 15px;
   }
-
   .details_item {
     font-size: 18px;
   }
@@ -932,10 +927,16 @@ ul.tab li a:focus,
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 40px;
-  max-width: 1460px;
-  min-height: 340px;
-  background-image: url(../images/foncontact.jpg);
+  height: 340px;
+  background-image: url(../images/contact/foncontact.jpg);
   background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 737px) {
+  .contact-page .contact__img {
+    background-image: url(../images/contact/contact_fon_mob.jpg);
+    height: 170px;
+  }
 }
 .contact-page .contact__wrap {
   margin-bottom: 20px;
@@ -978,6 +979,7 @@ ul.tab li a:focus,
   .contact-page .contact__wrap .half-block {
     width: 100%;
     display: block;
+    padding-bottom: 40px;
   }
 }
 

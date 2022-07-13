@@ -14,10 +14,14 @@
     margin-left: auto;
     margin-bottom: 40px;
 
-    max-width: 1460px;
-    min-height: 340px;
-    background-image: url(../images/foncontact.jpg);
+    height: 340px;
+    background-image: url(../images/contact/foncontact.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 737px) {
+      background-image: url(../images/contact/contact_fon_mob.jpg);
+      height: 170px;
+    }
   }
   .contact__wrap {
     margin-bottom: 20px;
@@ -64,6 +68,7 @@
       .half-block {
         width: 100%;
         display: block;
+        padding-bottom: 40px;
       }
     }
   }
