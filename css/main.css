@@ -10,7 +10,6 @@ p {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
 }
 
@@ -478,6 +477,26 @@ body {
 .team__soc-link:hover, .team__soc-link:focus {
   fill: #fff;
   background-color: #0085ff;
+}
+
+.element-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.element-1 a {
+  width: 50%;
+  padding: 0.25rem;
+}
+@media screen and (min-width: 768px) {
+  .element-1 a {
+    width: 25%;
+  }
+}
+
+.element-1 img {
+  width: 100%;
+  display: flex;
 }
 
 .details {

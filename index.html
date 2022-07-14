@@ -16,23 +16,15 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
     <!-- Галерея -->
-    <link
-      rel="stylesheet"
-      href="./node_modules/lightgallery/css/lightgallery.css"
-    />
+    <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./css/lightgallery.min.css" />
     <!-- lightgallery plugins -->
-    <link rel="stylesheet" href="./node_modules/lightgallery/css/lg-zoom.css" />
+    <!-- <link rel="stylesheet" href="./node_modules/lightgallery/css/lg-zoom.css" />
     <link
       rel="stylesheet"
       href="./node_modules/lightgallery/css/lg-thumbnail.css"
-    />
+    /> -->
 
-    <!-- OR -->
-
-    <link
-      rel="stylesheet"
-      href="./node_modules/lightgallery/css/lightgallery-bundle.css"
-    />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -579,19 +571,25 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
         </div>
       </section>
       <section class="gallery">
-        <div class="conteiner">
-          <div id="lightgallery">
-            <a href="./images/gellary/01.jpeg" data-lg-size="1280-720">
-              <img alt=".." src="./images/gellary/01.jpeg" />
+        <div class="container">
+          <div class="element-1">
+            <a href="./images/gallery/1.jpg">
+              <img alt=".." src="./images/gallery/1.jpg" />
             </a>
-            <a href="./images/gellary/02.jpeg" data-lg-size="-1280-720">
-              <img alt=".." src="./images/gellary/02.jpeg" />
+            <a href="./images/gallery/2.jpg">
+              <img alt=".." src="./images/gallery/2.jpg" />
             </a>
-            <a href="./images/gellary/03.jpeg" data-lg-size="-1280-720">
-              <img alt=".." src="./images/gellary/03.jpeg" />
+            <a href="./images/gallery/3.jpg">
+              <img alt=".." src="./images/gallery/3.jpg" />
             </a>
-            <a href="./images/gellary/04.jpeg" data-lg-size="-1280-720">
-              <img alt=".." src="./images/gellary/04.jpeg" />
+            <a href="./images/gallery/4.jpg">
+              <img alt=".." src="./images/gallery/4.jpg" />
+            </a>
+            <a href="./images/gallery/5.jpg">
+              <img alt=".." src="./images/gallery/5.jpg" />
+            </a>
+            <a href="./images/gallery/6.jpg">
+              <img alt=".." src="./images/gallery/6.jpg" />
             </a>
           </div>
         </div>
@@ -883,17 +881,19 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
     <script src="./js/mob-menu.js"></script>
     <script src="./js/menu-close.js"></script>
     <!-- Галерея -->
-    <script src="./node_modules/lightgallery/lightgallery.umd.js"></script>
+    <script src="./js/gallery.js"></script>
+    <script src="./js/lightgallery.min.js"></script>
+    <!-- <script src="./node_modules/lightgallery/lightgallery.umd.js"></script> -->
     <!-- lightgallery plugins -->
-    <script src="./node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.umd.js"></script>
-    <script src="./node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js"></script>
+    <!-- <script src="./node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="./node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js"></script> -->
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       lightGallery(document.getElementById('lightgallery'), {
         plugins: [lgZoom, lgThumbnail],
         speed: 500,
         licenseKey: 'your_license_key',
       });
-    </script>
+    </script> -->
   </body>
 </html>
