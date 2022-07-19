@@ -26,9 +26,8 @@ img {
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
-  letter-spacing: 0.03em;
   color: #000000;
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 
 .container {
@@ -378,7 +377,6 @@ body {
 }
 
 .team {
-  padding: 20px 0;
   background-color: #f5f4fa;
 }
 @media screen and (min-width: 768px) {
@@ -413,13 +411,21 @@ body {
 .team__item {
   margin-top: 30px;
   margin-left: 30px;
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
   flex-basis: calc(50% - 30px);
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .team__item {
+    flex-basis: calc(25% - 30px);
+  }
+}
+
+.team__wrap {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc(50% - 30px);
+}
+@media screen and (min-width: 768px) {
+  .team__wrap {
     flex-basis: calc(25% - 30px);
   }
 }
@@ -439,13 +445,8 @@ body {
   }
 }
 
-.team__wrap {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4px;
-}
-
 .team__name {
+  margin-bottom: 4px;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.36;
@@ -468,7 +469,7 @@ body {
 }
 
 .team__prof {
-  margin-bottom: 6px;
+  margin-bottom: 11px;
   font-weight: 600;
   font-size: 13px;
   line-height: 1.38;
@@ -477,8 +478,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .team__prof {
-    font-size: 18px;
-    line-height: 1.36;
+    font-weight: 500;
+    margin-bottom: 15px;
   }
 }
 
@@ -504,9 +505,9 @@ body {
 }
 @media screen and (min-width: 768px) {
   .team__soc-link {
+    display: none;
     width: 44px;
     height: 44px;
-    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -526,13 +527,14 @@ body {
   font-size: 12px;
   line-height: 1.33;
   color: #163530;
+  opacity: 0.5;
 }
 .team__mob-link:hover, .team__mob-link:focus {
   transform: scale(0.9);
 }
 @media screen and (min-width: 768px) {
   .team__mob-link {
-    display: none;
+    font-size: 15px;
   }
 }
 
@@ -541,9 +543,34 @@ body {
   fill: #163530;
 }
 
-.details {
-  padding: 20px 0;
+.team__btn {
+  display: block;
+  margin: 21px auto 35px auto;
+  background-color: transparent;
+  border: transparent;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  text-decoration-line: underline;
+  color: #163530;
 }
+@media screen and (min-width: 768px) {
+  .team__btn {
+    display: none;
+  }
+}
+
+#more {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #more {
+    display: flex;
+  }
+}
+
 .details .payment_gateways_block {
   padding-bottom: 50px;
 }
@@ -684,7 +711,7 @@ ul.tab li a:focus,
 
 @media screen and (max-width: 767px) {
   .details {
-    padding: 40px 0;
+    padding-bottom: 50px;
   }
   .details_titel {
     font-size: 36px;
