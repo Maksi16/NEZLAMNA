@@ -1,0 +1,30 @@
+.gallery {
+    h2 {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    // max-width: 64rem;
+    margin: 0 auto;
+    // padding: 0 1.5rem;
+    gap: 1.25rem;
+
+    a {
+        width: 30%;
+        img {
+            border-radius: 0.25rem;
+        }
+    }
+    
+    
+}
+
+a[data-fancybox] img {
+    cursor: zoom-in;
+}
