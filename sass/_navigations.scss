@@ -6,8 +6,8 @@
     @media screen and (min-width: 768px) {
       display: flex;
       align-items: center;
-      margin-left: 380px;
-      margin-right: 20px;
+
+      margin-right: 240px;
     }
   }
 
@@ -30,5 +30,24 @@
     &.marked {
       text-decoration: underline;
     }
+  }
+}
+.navigations__supportBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 252px;
+  height: 76px;
+  background: #ffe248;
+  border-radius: 40px;
+
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1;
+  text-align: center;
+
+  color: #163530;
+  img {
+    margin-right: 10px;
   }
 }

@@ -185,8 +185,7 @@ body {
   .navigations_list {
     display: flex;
     align-items: center;
-    margin-left: 380px;
-    margin-right: 20px;
+    margin-right: 240px;
   }
 }
 .navigations_item:not(:last-child) {
@@ -205,13 +204,33 @@ body {
   text-decoration: underline;
 }
 
+.navigations__supportBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 252px;
+  height: 76px;
+  background: #ffe248;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1;
+  text-align: center;
+  color: #163530;
+}
+.navigations__supportBtn img {
+  margin-right: 10px;
+}
+
 .logo_icon {
   width: 138px;
   height: 39px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .logo_icon {
-    margin-left: auto;
+    width: 174px;
+    height: 49px;
+    margin-right: 184px;
   }
 }
 
