@@ -27,8 +27,10 @@
   margin-bottom: 24px;
   @media screen and (min-width: 768px) {
     // width: 799px;
-    margin-bottom: 20px;
+    width: 456px;
+    height: 215px;
 
+    margin-bottom: 41px;
     font-size: 24px;
   }
   font-weight: 600;
@@ -39,23 +41,16 @@
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-evenly;
-
-    width: 799px;
   }
 }
 .help_item:first-child {
-  @media screen and (max-width: 767px) {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
+    margin-right: 12px;
   }
 }
-.link--suport {
-  background: #ffe248;
-  color: #000000;
-}
-.link--help {
-  background: #163530;
-  color: #ffffff;
-}
+
 .help__link {
   display: flex;
   align-items: center;
@@ -68,6 +63,24 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 1;
+}
+.link--suport {
+  background: #ffe248;
+  color: #000000;
+  @media screen and (min-width: 768px) {
+    width: 222px;
+    height: 71px;
+    font-size: 22px;
+  }
+}
+.link--help {
+  background: #163530;
+  color: #ffffff;
+  @media screen and (min-width: 768px) {
+    width: 305px;
+    height: 71px;
+    font-size: 22px;
+  }
 }
 // .help_img {
 //   @media screen and (min-width: 768px) {
