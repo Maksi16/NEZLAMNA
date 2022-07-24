@@ -41,7 +41,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 1280px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -264,20 +264,27 @@ body {
 @media screen and (min-width: 768px) {
   .help {
     padding-bottom: 89px;
-    display: flex;
   }
 }
 
+.help__box {
+  padding: 0 15px;
+  margin: 0 auto;
+}
 @media screen and (min-width: 768px) {
   .help__box {
     display: flex;
+    padding: 0;
+    margin-left: 74px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .help__wrap {
+    display: flex;
+    align-items: center;
     width: 1460px;
-    margin-right: 74px;
+    margin-right: auto;
     margin-left: auto;
   }
 }

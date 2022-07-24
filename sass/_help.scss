@@ -2,18 +2,24 @@
   padding-bottom: 50px;
   @media screen and (min-width: 768px) {
     padding-bottom: 89px;
-    display: flex;
   }
 }
 .help__box {
+  padding: 0 15px;
+  margin: 0 auto;
   @media screen and (min-width: 768px) {
     display: flex;
+    padding: 0;
+    margin-left: 74px;
   }
 }
 .help__wrap {
   @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+
     width: 1460px;
-    margin-right: 74px;
+    margin-right: auto;
     margin-left: auto;
   }
 }
