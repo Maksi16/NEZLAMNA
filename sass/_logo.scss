@@ -1,9 +1,11 @@
 .logo_icon {
-  width: 70px;
-  height: 70px;
-  margin-right: 10px;
-  @media screen and (max-width: 767px) {
-    margin-left: auto;
+  width: 138px;
+  height: 39px;
+
+  @media screen and (min-width: 768px) {
+    width: 174px;
+    height: 49px;
+    margin-right: 184px;
   }
 }
 .logo {
