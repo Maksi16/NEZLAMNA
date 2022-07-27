@@ -1050,7 +1050,6 @@ ul.tab li a:focus,
 @media screen and (min-width: 768px) {
   .about-us__box {
     background-image: url(../images/about_fon.jpg);
-    height: 340px;
     background-repeat: no-repeat;
   }
 }
@@ -1130,7 +1129,6 @@ ul.tab li a:focus,
 @media screen and (max-width: 737px) {
   .contact-page .contact__img {
     background-image: url(../images/contact/contact_fon_mob.jpg);
-    height: 170px;
   }
 }
 .contact-page .contact__wrap {
@@ -1147,14 +1145,32 @@ ul.tab li a:focus,
   line-height: 1.76;
   color: #000000;
 }
-.contact-page .contact__wrap .contact__item img {
+@media screen and (max-width: 737px) {
+  .contact-page .contact__wrap .contact__item {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}
+.contact-page .contact__wrap .contact__item .contact__icon {
   margin-right: 12px;
+}
+@media screen and (max-width: 737px) {
+  .contact-page .contact__wrap .contact__item .contact__icon {
+    width: 32px;
+    height: 32px;
+  }
 }
 .contact-page .contact__wrap .title {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.69;
   margin-bottom: 25px;
+}
+@media screen and (max-width: 737px) {
+  .contact-page .contact__wrap .title {
+    font-size: 22px;
+    line-height: 1.77;
+  }
 }
 .contact-page .contact__wrap p {
   color: #424242;
