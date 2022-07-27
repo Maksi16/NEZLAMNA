@@ -3,6 +3,9 @@
         text-align: center;
         margin-top: 60px;
         margin-bottom: 40px;
+        font-size: 32px;
+
+        @media (max-width: 767px) {}
     }
 }
 
@@ -16,7 +19,12 @@
     gap: 1.25rem;
 
     a {
-        width: 30%;
+        width: 18%;
+
+        @media (max-width: 767px) {
+            width: 44%;
+        }
+
         img {
             border-radius: 0.25rem;
         }
@@ -25,6 +33,11 @@
     
 }
 
-a[data-fancybox] img {
-    cursor: zoom-in;
+a[data-fancybox] {
+    transition: all .15s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
