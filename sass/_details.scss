@@ -1,5 +1,5 @@
 .details {
-  padding: 20px 0;
+  // padding: 20px 0;
 
   .payment_gateways_block {
     padding-bottom: 50px;
@@ -15,7 +15,6 @@
     }
   }
 }
-
 
 .details_titel {
   font-size: 28px;
@@ -49,7 +48,6 @@
   &--bold {
     font-weight: 700;
   }
-
 }
 
 .details_btn {
@@ -145,15 +143,14 @@ ul.tab li a:focus,
   display: inline;
   margin-right: 10px;
 
-  @media(max-width: 767px) {
+  @media (max-width: 767px) {
     width: 5vw;
   }
 }
 
-
 @media screen and (max-width: 767px) {
   .details {
-    padding: 40px 0;
+    padding-bottom: 50px;
   }
   .details_titel {
     font-size: 36px;
