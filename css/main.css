@@ -292,7 +292,6 @@ body {
 .about {
   padding-top: 25px;
   background-color: rgba(133, 149, 120, 0.1);
-  outline: 1px solid red;
 }
 @media screen and (min-width: 768px) {
   .about {
@@ -979,7 +978,7 @@ ul.tab li a:focus,
 }
 
 .about-us {
-  padding-bottom: 40px;
+  padding-bottom: 78px;
 }
 @media screen and (min-width: 768px) {
   .about-us {
@@ -990,6 +989,13 @@ ul.tab li a:focus,
   font-weight: 500;
   font-size: 17px;
   line-height: 1.76;
+}
+@media screen and (min-width: 768px) {
+  .about-us_text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.8;
+  }
 }
 .about-us_item {
   font-weight: 500;
@@ -1037,7 +1043,7 @@ ul.tab li a:focus,
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 48px;
-  height: 170px;
+  height: 340px;
   background-image: url(../images/about_fon_mob.jpg);
   background-position: center;
 }

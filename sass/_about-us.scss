@@ -1,5 +1,5 @@
 .about-us {
-  padding-bottom: 40px;
+  padding-bottom: 78px;
   @media screen and (min-width: 768px) {
     padding-bottom: 135px;
   }
@@ -7,6 +7,11 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 1.76;
+    @media screen and (min-width: 768px) {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 1.8;
+    }
   }
   &_item {
     font-weight: 500;
@@ -49,7 +54,7 @@
   margin-left: auto;
   margin-bottom: 48px;
 
-  height: 170px;
+  height: 340px;
   background-image: url(../images/about_fon_mob.jpg);
   background-position: center;
   @media screen and (min-width: 768px) {
