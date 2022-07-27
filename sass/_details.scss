@@ -172,6 +172,7 @@ ul.tab li a:focus,
 // Products
 .products {
   margin-bottom: 60px;
+
   h2 {
     text-align: center;
     font-size: 40px;
@@ -183,9 +184,10 @@ ul.tab li a:focus,
 
   &__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
     .item {
+      width: 50%;
 
       &:first-child {
         margin-right: 8%;
@@ -213,6 +215,14 @@ ul.tab li a:focus,
     }
   }
 
+  @media (max-width: 767px) {
+    &__list {
+      .item {
+        width: 70%;
+      }
+    }
+  }
+
   @media (max-width: 530px) {
     h2 {
       font-size: 32px;
@@ -229,6 +239,7 @@ ul.tab li a:focus,
       }
 
       .item {
+        width: 100%;
         margin-bottom: 35px;
 
         a.link {
