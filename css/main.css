@@ -26,7 +26,6 @@ img {
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
-  letter-spacing: 0.03em;
   color: #000000;
   background-color: #fff;
 }
@@ -542,7 +541,12 @@ body {
 }
 
 .details {
-  padding: 20px 0;
+  padding: 20px 0 40px 0;
+}
+@media screen and (min-width: 768px) {
+  .details {
+    padding: 20px 0 89px 0;
+  }
 }
 .details .payment_gateways_block {
   padding-bottom: 50px;
@@ -596,7 +600,7 @@ body {
 }
 
 .details_item {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.6;
 }
 @media screen and (min-width: 768px) {
@@ -617,6 +621,18 @@ body {
 .details_btn:hover, .details_btn:focus {
   fill: #0085ff;
   cursor: pointer;
+}
+
+.details_icon {
+  width: 20px;
+  height: 20px;
+  fill: rgba(22, 53, 48, 0.35);
+}
+@media screen and (min-width: 768px) {
+  .details_icon {
+    width: 27px;
+    height: 27px;
+  }
 }
 
 .details_text {
@@ -656,6 +672,7 @@ ul.tab li a {
 
 .tablinks_img {
   display: inline;
+  height: 18px;
 }
 @media (min-width: 768px) {
   .tablinks_img {
