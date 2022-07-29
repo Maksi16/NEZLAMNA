@@ -3,6 +3,7 @@
   @media screen and (min-width: 768px) {
     padding: 20px 0 89px 0;
   }
+
   .payment_gateways_block {
     padding-bottom: 50px;
 
@@ -10,7 +11,6 @@
       text-align: center;
 
       .liqpay {
-        //width: 50%;
         min-width: 300px;
         text-align: center;
       }
@@ -50,6 +50,7 @@
     font-size: 20px;
     line-height: 1.79;
   }
+
   &--bold {
     font-weight: 700;
   }
@@ -62,10 +63,11 @@
 
   &:hover,
   &:focus {
-    fill: $brandColor;
+    fill: #163530;
     cursor: pointer;
   }
 }
+
 .details_icon {
   width: 20px;
   height: 20px;
@@ -76,6 +78,7 @@
     height: 27px;
   }
 }
+
 .details_text {
   font-size: 18px;
   line-height: 1.75;
@@ -93,8 +96,6 @@ ul.tab {
 }
 
 ul.tab li {
-  //float: left;
-  //width: 25%;
   flex: 25%;
 }
 
@@ -113,16 +114,20 @@ ul.tab li a {
     height: 100%;
   }
 }
+
 .tablinks_img {
   display: inline;
   height: 18px;
   @media (min-width: 768px) {
-    // width: 5vw;
     height: 24px;
   }
 }
 
-ul.tab li a:focus,
+.tablinks {
+  opacity: 0.4;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
 .active {
   background-color: #ccc;
 }
@@ -169,18 +174,6 @@ ul.tab li a:focus,
 @media screen and (max-width: 767px) {
   .details {
     padding-bottom: 50px;
-  }
-  .details_titel {
-    font-size: 36px;
-  }
-
-  .details_subtitle {
-    font-size: 30px;
-    padding-bottom: 15px;
-  }
-
-  .details_item {
-    font-size: 18px;
   }
 }
 
