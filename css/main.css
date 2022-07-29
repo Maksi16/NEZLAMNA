@@ -326,6 +326,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
   width: 327px;
   height: 53px;
   border-radius: 40px;
