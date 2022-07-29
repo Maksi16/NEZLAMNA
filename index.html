@@ -205,7 +205,7 @@
                 media="(min-width: 768px)"
                     />
                 <source
-                    srcset="./images/about/kub_mob.png"
+              srcset="./images/about/kub_mob.png"
                   media="(min-width: 320px)"
             />
           <img src="./images/about/kub_desk.png" alt="куб" />
@@ -752,16 +752,24 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
                   alt="тактичні рюкзаки та павербанки"
                 />
 
-                        <form
-                                method="POST"
-                                accept-charset="utf-8"
-                                action="https://www.liqpay.ua/api/3/checkout"
-                                style="text-align: center;margin-top: 40px"
-                        >
-                            <input type="hidden" name="data" value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJhbW91bnQiOiIxMDAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0L3QsCDRgNGO0LrQt9Cw0LrQuCDRgtCwINC/0LDQstC10YDQsdCw0L3QutC4LCAzNSDQsdGA0LjQs9Cw0LTQsCIsInB1YmxpY19rZXkiOiJpMzE0OTk1MTU1ODMiLCJsYW5ndWFnZSI6InVrIiwicmVzdWx0X3VybCI6Imh0dHBzOi8vbmV6bGFtbmEub3JnLnVhLyJ9" />
-                            <input type="hidden" name="signature" value="vZaUVs4rKguF6pWtZdBY5+tp+TU=" />
-                            <button
-                                    style="
+                <form
+                  method="POST"
+                  accept-charset="utf-8"
+                  action="https://www.liqpay.ua/api/3/checkout"
+                  style="text-align: center; margin-top: 40px"
+                >
+                  <input
+                    type="hidden"
+                    name="data"
+                    value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJhbW91bnQiOiIxMDAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0L3QsCDRgNGO0LrQt9Cw0LrQuCDRgtCwINC/0LDQstC10YDQsdCw0L3QutC4LCAzNSDQsdGA0LjQs9Cw0LTQsCIsInB1YmxpY19rZXkiOiJpMzE0OTk1MTU1ODMiLCJsYW5ndWFnZSI6InVrIiwicmVzdWx0X3VybCI6Imh0dHBzOi8vbmV6bGFtbmEub3JnLnVhLyJ9"
+                  />
+                  <input
+                    type="hidden"
+                    name="signature"
+                    value="vZaUVs4rKguF6pWtZdBY5+tp+TU="
+                  />
+                  <button
+                    style="
                       border: none !important;
                       display: inline-block !important;
                       text-align: center !important;
@@ -785,33 +793,30 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
                         vertical-align: middle !important;
                         display: inline-block;
                       "
-                                />
-                                <span style="vertical-align:middle; !important"
-                                >Підтримати збір</span
-                                >
-                            </button>
-                        </form>
-                    </div>
-
-                </div>
+                    />
+                    <span style="vertical-align:middle; !important"
+                      >Підтримати збір</span
+                    >
+                  </button>
+                </form>
+              </div>
             </div>
+          </div>
 
           <div class="bank-invoices">
-            <h3 class="details_titel">Банківські рахунки</h3>
+            <h3 class="details_titel">Реквізити для підтримки</h3>
             <ul class="tab">
               <li>
                 <a
                   href="##"
-                  class="tablinks"
+                  class="tablinks active"
                   onclick="openCurrency(event, 'Гривня')"
                   ><img
                     class="tablinks_img"
-                    src="./images/icons8-ukraine-48.png"
-                    alt=""
-                    width="20px"
+                    src="./images/details/UA.svg"
+                    alt="Гривня"
                   />
-                  Гривня</a
-                >
+                </a>
               </li>
               <li>
                 <a
@@ -820,12 +825,10 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
                   onclick="openCurrency(event, 'US Dollar')"
                   ><img
                     class="tablinks_img"
-                    src="./images/icons8-usa-48.png"
-                    alt=""
-                    width="20px"
+                    src="./images/details/US.svg"
+                    alt="US Dollar"
                   />
-                  US Dollar</a
-                >
+                </a>
               </li>
               <li>
                 <a
@@ -834,11 +837,9 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
                   onclick="openCurrency(event, 'Euro')"
                   ><img
                     class="tablinks_img"
-                    src="./images/icons8-europe-48.png"
-                    alt=""
-                    width="20px"
-                  />Euro</a
-                >
+                    src="./images/details/EU.svg"
+                    alt="Euro"
+                /></a>
               </li>
               <li>
                 <a
@@ -847,11 +848,9 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
                   onclick="openCurrency(event, 'Zloty')"
                   ><img
                     class="tablinks_img"
-                    src="./images/icons8-poland-48.png"
-                    alt=""
-                    width="20px"
-                  />Złoty</a
-                >
+                    src="./images/details/PL.svg"
+                    alt="Złoty"
+                /></a>
               </li>
             </ul>
             <div id="Гривня" class="tabcontent" style="display: block">
@@ -871,7 +870,7 @@ https://instagram.com/khoroshylov777?igshid=YmMyMTA2M2Y="
                     >UA 0730 5299 0000 0260 0201 1025 224</span
                   >
                   <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
+                    <svg class="details_icon">
                       <use href="./images/icon.svg#icon-edit-copy"></use>
                     </svg>
                   </button>
