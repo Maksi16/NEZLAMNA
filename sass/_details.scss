@@ -10,7 +10,6 @@
       text-align: center;
 
       .liqpay {
-        //width: 50%;
         min-width: 300px;
         text-align: center;
       }
@@ -74,7 +73,7 @@
 
   &:hover,
   &:focus {
-    fill: $brandColor;
+    fill: #163530;
     cursor: pointer;
   }
 }
@@ -104,8 +103,6 @@ ul.tab {
 }
 
 ul.tab li {
-  //float: left;
-  //width: 25%;
   flex: 25%;
 }
 
@@ -128,7 +125,6 @@ ul.tab li a {
   display: inline;
   height: 18px;
   @media (min-width: 768px) {
-    // width: 5vw;
     height: 24px;
   }
 }
@@ -137,8 +133,6 @@ ul.tab li a {
   opacity: 0.4;
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
-// .tablinks:hover,
-// .tablinks:focus,
 .active {
   opacity: 1;
   border-bottom: 2px solid #000000;
@@ -176,14 +170,6 @@ ul.tab li a {
   .details {
     padding: 40px 0;
   }
-  // .details_titel {
-  //   font-size: 36px;
-  // }
-
-  // .details_subtitle {
-  //   font-size: 30px;
-  //   padding-bottom: 15px;
-  // }
 }
 
 // Products
