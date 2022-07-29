@@ -596,8 +596,14 @@ body {
 }
 
 .details_item {
-  font-size: 14px;
-  line-height: 1.75;
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media screen and (min-width: 768px) {
+  .details_item {
+    font-size: 20px;
+    line-height: 1.79;
+  }
 }
 .details_item--bold {
   font-weight: 700;
@@ -697,9 +703,6 @@ ul.tab li a {
 @media screen and (max-width: 767px) {
   .details {
     padding: 40px 0;
-  }
-  .details_item {
-    font-size: 18px;
   }
 }
 .products {
