@@ -28,6 +28,10 @@
 }
 
 .mob-menu__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   height: 100%;
   padding: 24px 24px 36px 24px;
 
@@ -36,11 +40,11 @@
 .mob-menu__logo {
   display: flex;
   align-items: center;
-  margin-bottom: 79px;
+  // margin-bottom: 79px;
 }
 
 .mob-menu__list {
-  margin-bottom: 247px;
+  // margin-bottom: 98px;
 }
 
 .mob-menu__item:not(:last-child) {
@@ -61,7 +65,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 25px;
+  //margin-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
 
