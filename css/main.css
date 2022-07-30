@@ -117,6 +117,9 @@ body {
 }
 
 .mob-menu__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   padding: 24px 24px 36px 24px;
   overflow: scroll;
@@ -125,11 +128,6 @@ body {
 .mob-menu__logo {
   display: flex;
   align-items: center;
-  margin-bottom: 79px;
-}
-
-.mob-menu__list {
-  margin-bottom: 247px;
 }
 
 .mob-menu__item:not(:last-child) {
@@ -150,7 +148,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
   width: 287px;
