@@ -1,6 +1,6 @@
 .details {
-  // padding: 20px 0 40px 0;
-  @media screen and (min-width: 768px) {
+  padding: 20px 0 40px 0;
+  @media screen and (min-width: 1280px) {
     padding: 20px 0 89px 0;
   }
 
@@ -179,15 +179,21 @@ ul.tab li a {
 
 // Products
 .products {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 60px;
+  }
 
   h2 {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     line-height: 54px;
-    margin-top: 54px;
+    margin-top: 20px;
     margin-bottom: 45px;
+    @media screen and (min-width: 1280px) {
+      margin-top: 54px;
+    }
   }
 
   &__list {
@@ -203,7 +209,7 @@ ul.tab li a {
 
       a.link {
         display: block;
-        background: #3A83F7;
+        background: #3a83f7;
         color: white;
         border-radius: 30px;
         margin: 40px auto 0;
@@ -211,13 +217,13 @@ ul.tab li a {
         padding: 7.5px 15px;
         font-size: 20px;
         font-weight: 700;
-        transition: .3s all;
+        transition: 0.3s all;
 
         &:hover {
-          color: #3A83F7;
+          color: #3a83f7;
           background-color: white;
-          border: 1px solid #3A83F7;
-          transition: .3s all;
+          border: 1px solid #3a83f7;
+          transition: 0.3s all;
         }
       }
     }
