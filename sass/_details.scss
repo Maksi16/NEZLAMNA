@@ -1,5 +1,8 @@
 .details {
-  padding: 20px 0;
+  // padding: 20px 0 40px 0;
+  @media screen and (min-width: 768px) {
+    padding: 20px 0 89px 0;
+  }
 
   .payment_gateways_block {
     padding-bottom: 50px;
@@ -8,14 +11,12 @@
       text-align: center;
 
       .liqpay {
-        //width: 50%;
         min-width: 300px;
         text-align: center;
       }
     }
   }
 }
-
 
 .details_titel {
   font-size: 28px;
@@ -43,13 +44,16 @@
 }
 
 .details_item {
-  font-size: 14px;
-  line-height: 1.75;
+  font-size: 15px;
+  line-height: 1.6;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.79;
+  }
 
   &--bold {
     font-weight: 700;
   }
-
 }
 
 .details_btn {
@@ -59,8 +63,19 @@
 
   &:hover,
   &:focus {
-    fill: $brandColor;
+    fill: #163530;
     cursor: pointer;
+  }
+}
+
+.details_icon {
+  width: 20px;
+  height: 20px;
+
+  fill: rgba(22, 53, 48, 0.35);
+  @media screen and (min-width: 768px) {
+    width: 27px;
+    height: 27px;
   }
 }
 
@@ -81,8 +96,6 @@ ul.tab {
 }
 
 ul.tab li {
-  //float: left;
-  //width: 25%;
   flex: 25%;
 }
 
@@ -102,11 +115,19 @@ ul.tab li a {
   }
 }
 
-ul.tab li a:hover {
-  background-color: #ddd;
+.tablinks_img {
+  display: inline;
+  height: 18px;
+  @media (min-width: 768px) {
+    height: 24px;
+  }
 }
 
-ul.tab li a:focus,
+.tablinks {
+  opacity: 0.4;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
 .active {
   background-color: #ccc;
 }
@@ -145,33 +166,21 @@ ul.tab li a:focus,
   display: inline;
   margin-right: 10px;
 
-  @media(max-width: 767px) {
+  @media (max-width: 767px) {
     width: 5vw;
   }
 }
 
-
 @media screen and (max-width: 767px) {
   .details {
-    padding: 40px 0;
-  }
-  .details_titel {
-    font-size: 36px;
-  }
-
-  .details_subtitle {
-    font-size: 30px;
-    padding-bottom: 15px;
-  }
-
-  .details_item {
-    font-size: 18px;
+    padding-bottom: 50px;
   }
 }
 
 // Products
 .products {
   margin-bottom: 60px;
+
   h2 {
     text-align: center;
     font-size: 40px;
@@ -183,9 +192,10 @@ ul.tab li a:focus,
 
   &__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
     .item {
+      width: 50%;
 
       &:first-child {
         margin-right: 8%;
@@ -213,6 +223,14 @@ ul.tab li a:focus,
     }
   }
 
+  @media (max-width: 767px) {
+    &__list {
+      .item {
+        width: 70%;
+      }
+    }
+  }
+
   @media (max-width: 530px) {
     h2 {
       font-size: 32px;
@@ -229,6 +247,7 @@ ul.tab li a:focus,
       }
 
       .item {
+        width: 100%;
         margin-bottom: 35px;
 
         a.link {

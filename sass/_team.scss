@@ -1,5 +1,5 @@
 .team {
-  padding: 20px 0;
+  // padding: 20px 0;
   background-color: #f5f4fa;
   @media screen and (min-width: 768px) {
     padding: 40px 0;
@@ -28,13 +28,17 @@
 .team__item {
   margin-top: 30px;
   margin-left: 30px;
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
   flex-basis: calc(100% / 2 - 30px);
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 4 - 30px);
+  }
+}
+.team__wrap {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc(100% / 2 - 30px);
+  @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 4 - 30px);
   }
 }
@@ -50,12 +54,9 @@
     padding: 21px 5px;
   }
 }
-.team__wrap {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4px;
-}
+
 .team__name {
+  margin-bottom: 4px;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.36;
@@ -72,15 +73,15 @@
   }
 }
 .team__prof {
-  margin-bottom: 6px;
+  margin-bottom: 11px;
   font-weight: 600;
   font-size: 13px;
   line-height: 1.38;
   opacity: 0.5;
   text-align: left;
   @media screen and (min-width: 768px) {
-    font-size: 18px;
-    line-height: 1.36;
+    font-weight: 500;
+    margin-bottom: 15px;
   }
 }
 .team__soc-list {
@@ -99,9 +100,10 @@
 .team__soc-link {
   display: none;
   @media screen and (min-width: 768px) {
+    display: none;
     width: 44px;
     height: 44px;
-    display: flex;
+    // display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -125,27 +127,41 @@
   line-height: 1.33;
 
   color: #163530;
+  opacity: 0.5;
   &:hover,
   &:focus {
     transform: scale(0.9);
   }
   @media screen and (min-width: 768px) {
-    display: none;
+    font-size: 15px;
   }
 }
 .team__mob-icon {
   margin-right: 4px;
   fill: #163530;
 }
-@media (max-width: 767px) {
-  // .team__list {
-  //   display: flex;
-  //   flex-wrap: wrap;
-  //   justify-content: space-between;
-  // }
+.team__btn {
+  display: block;
+  margin: 21px auto 35px auto;
+  background-color: transparent;
+  border: transparent;
 
-  // .team__item {
-  //   padding-top: 0;
-  //   width: 45%;
-  // }
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  text-decoration-line: underline;
+
+  color: #163530;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+#more {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
