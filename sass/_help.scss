@@ -7,14 +7,14 @@
 .help__box {
   padding: 0 15px;
   margin: 0 auto;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
     display: flex;
     padding: 0;
     margin-left: 74px;
   }
 }
 .help__wrap {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
     display: flex;
     align-items: center;
 
@@ -26,12 +26,13 @@
 .help_text {
   margin-bottom: 24px;
   @media screen and (min-width: 768px) {
+    margin-bottom: 41px;
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1280px) {
     // width: 799px;
     width: 456px;
     height: 215px;
-
-    margin-bottom: 41px;
-    font-size: 24px;
   }
   font-weight: 600;
   font-size: 15px;
