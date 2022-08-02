@@ -1210,6 +1210,7 @@ ul.tab li a {
 
 .documents {
   padding-bottom: 40px;
+  padding-top: 20px;
   background-color: #f3f4f1;
 }
 .documents h2 {
@@ -1245,9 +1246,6 @@ ul.tab li a {
   line-height: 24px;
 }
 @media (max-width: 767px) {
-  .documents {
-    margin-bottom: 50px;
-  }
   .documents h2 {
     font-size: 26px;
     line-height: 40px;
@@ -1339,7 +1337,12 @@ ul.tab li a {
   display: inline-block;
   white-space: normal;
   vertical-align: top;
-  padding-bottom: 316px;
+  padding-bottom: 100px;
+}
+@media screen and (min-width: 1280px) {
+  .contact-page .contact__wrap .half-block {
+    padding-bottom: 316px;
+  }
 }
 @media screen and (max-width: 737px) {
   .contact-page .contact__wrap .half-block {

@@ -1,6 +1,7 @@
 // Documents
 .documents {
   padding-bottom: 40px;
+  padding-top: 20px;
   background-color: #f3f4f1;
   h2 {
     text-align: center;
@@ -41,8 +42,6 @@
   }
 
   @media (max-width: 767px) {
-    margin-bottom: 50px;
-
     h2 {
       font-size: 26px;
       line-height: 40px;
