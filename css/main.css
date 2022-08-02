@@ -1210,6 +1210,7 @@ ul.tab li a {
 
 .documents {
   padding-bottom: 40px;
+  background-color: #f3f4f1;
 }
 .documents h2 {
   text-align: center;
@@ -1782,6 +1783,11 @@ footer .containerF .logo-slogan .buttons a.helpBtn {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+  }
+}
+@media (min-width: 1280px) {
+  footer .containerF .footer__contacts {
+    display: block;
   }
 }
 footer .containerF .footer__contacts h3 {
