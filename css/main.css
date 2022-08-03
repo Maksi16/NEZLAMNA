@@ -56,6 +56,10 @@ body {
   visibility: hidden;
 }
 
+.no-scroll {
+  position: fixed;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;

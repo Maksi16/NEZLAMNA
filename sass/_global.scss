@@ -23,6 +23,9 @@ body {
   pointer-events: none;
   visibility: hidden;
 }
+.no-scroll {
+  position: fixed;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
