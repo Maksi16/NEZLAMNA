@@ -105,3 +105,6 @@ dist
 
 .idea
 files
+
+css/*.css.map
+css/*.min.css.map
