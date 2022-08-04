@@ -20,7 +20,6 @@
     background-repeat: no-repeat;
     @media screen and (max-width: 737px) {
       background-image: url(../images/contact/contact_fon_mob.jpg);
-      height: 170px;
     }
   }
   .contact__wrap {
@@ -36,8 +35,16 @@
       font-size: 17px;
       line-height: 1.76;
       color: #000000;
-      img {
+      @media screen and (max-width: 737px) {
+        font-size: 15px;
+        line-height: 1.8;
+      }
+      .contact__icon {
         margin-right: 12px;
+        @media screen and (max-width: 737px) {
+          width: 32px;
+          height: 32px;
+        }
       }
     }
     .title {
@@ -45,6 +52,10 @@
       font-size: 32px;
       line-height: 1.69;
       margin-bottom: 25px;
+      @media screen and (max-width: 737px) {
+        font-size: 22px;
+        line-height: 1.77;
+      }
     }
 
     p {
@@ -61,7 +72,10 @@
       display: inline-block;
       white-space: normal;
       vertical-align: top;
-      padding-bottom: 316px;
+      padding-bottom: 100px;
+      @media screen and (min-width: 1280px) {
+        padding-bottom: 316px;
+      }
     }
 
     @media screen and (max-width: 737px) {

@@ -3,7 +3,7 @@
     openMenuBtn: document.querySelector('.open'),
     closeMenuBtn: document.querySelector('.close'),
     menu: document.querySelector('.mob-menu'),
-    body: document.querySelector('.body'),
+    body: document.querySelector('body'),
   };
   refs.openMenuBtn.addEventListener('click', toggleMenu);
   refs.closeMenuBtn.addEventListener('click', toggleMenu);
