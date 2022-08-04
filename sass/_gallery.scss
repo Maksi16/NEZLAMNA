@@ -9,6 +9,16 @@
     }
 }
 
+.fancybox__caption {
+    font-size: 32px;
+    font-weight: 700;
+
+    @media (max-width: 660px) {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
 .carousel {
     display: flex;
     justify-content: center;

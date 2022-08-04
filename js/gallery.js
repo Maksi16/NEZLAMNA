@@ -5,8 +5,8 @@ function createGalleryItem() {
   const gallery = document.querySelector('.carousel')
 
   for (let i = 0; i < Object.keys(inputJson).length; i++) {
-    gallery.innerHTML += `<a data-fancybox="demo" href="${inputJson[i].image_url}">
-    ${inputJson[i].title} <img class="rounded" src="${inputJson[i].image_url}" /></a>`
+    gallery.innerHTML += `<a data-fancybox="demo" data-caption="${inputJson[i].title}" href="${inputJson[i].image_url}">
+      <img class="rounded" src="${inputJson[i].image_url}" /></a>`
   }
 }
 
