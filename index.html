@@ -619,25 +619,30 @@
               </div>
             </div>
           </div>
-          <div class="products">
-            <h2>Збір на матеріали для маскувальних сіток</h2>
-            <div class="products__list">
-              <div class="item">
-                <img
-                        src="./images/products/sitka.png"
-                        alt="Збір на матеріали для маскувальних сіток"
-                />
+        </div>
+      </section>
 
-                <form
-                        method="POST"
-                        accept-charset="utf-8"
-                        action="https://www.liqpay.ua/api/3/checkout"
-                        style="text-align: center; margin-top: 40px"
-                >
-                  <input type="hidden" name="data" value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJhbW91bnQiOiIyMDAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0LfQsdGW0YAg0L3QsCDQvNCw0YLQtdGA0ZbQsNC70Lgg0LTQu9GPINGB0ZbRgtC+0LoiLCJwdWJsaWNfa2V5IjoiaTMxNDk5NTE1NTgzIiwibGFuZ3VhZ2UiOiJ1ayIsInNlcnZlcl91cmwiOiJodHRwczovL25lemxhbW5hLm9yZy51YS8iLCJyZXN1bHRfdXJsIjoiaHR0cHM6Ly9uZXpsYW1uYS5vcmcudWEvIn0=" />
-                  <input type="hidden" name="signature" value="xTdyWGAql1sBj+3Jnye7EpWzFWE=" />
-                  <button
-                          style="
+      <section class="details" id="net">
+        <div class="container">
+            <div class="products">
+          <h2>Збір на матеріали для маскувальних сіток</h2>
+          <div class="products__list">
+            <div class="item">
+              <img
+                      src="./images/products/sitka.png"
+                      alt="Збір на матеріали для маскувальних сіток"
+              />
+
+              <form
+                      method="POST"
+                      accept-charset="utf-8"
+                      action="https://www.liqpay.ua/api/3/checkout"
+                      style="text-align: center; margin-top: 40px"
+              >
+                <input type="hidden" name="data" value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJhbW91bnQiOiIyMDAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0LfQsdGW0YAg0L3QsCDQvNCw0YLQtdGA0ZbQsNC70Lgg0LTQu9GPINGB0ZbRgtC+0LoiLCJwdWJsaWNfa2V5IjoiaTMxNDk5NTE1NTgzIiwibGFuZ3VhZ2UiOiJ1ayIsInNlcnZlcl91cmwiOiJodHRwczovL25lemxhbW5hLm9yZy51YS8iLCJyZXN1bHRfdXJsIjoiaHR0cHM6Ly9uZXpsYW1uYS5vcmcudWEvIn0=" />
+                <input type="hidden" name="signature" value="xTdyWGAql1sBj+3Jnye7EpWzFWE=" />
+                <button
+                        style="
                       border: none !important;
                       display: inline-block !important;
                       text-align: center !important;
@@ -650,405 +655,409 @@
                       border-radius: 2px !important;
                       background: rgba(122, 183, 43, 1) !important;
                     "
-                          onmouseover="this.style.opacity='0.5';"
-                          onmouseout="this.style.opacity='1';"
-                  >
-                    <img
-                            src="https://static.liqpay.ua/buttons/logo-small.png"
-                            name="btn_text"
-                            style="
+                        onmouseover="this.style.opacity='0.5';"
+                        onmouseout="this.style.opacity='1';"
+                >
+                  <img
+                          src="https://static.liqpay.ua/buttons/logo-small.png"
+                          name="btn_text"
+                          style="
                         margin-right: 7px !important;
                         vertical-align: middle !important;
                         display: inline-block;
                       "
-                    />
-                    <span style="vertical-align:middle; !important"
-                    >Підтримати збір</span
-                    >
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-
-          <div class="bank-invoices">
-            <h3 class="details_titel">Реквізити для підтримки</h3>
-            <ul class="tab">
-              <li>
-                <a
-                  href="##"
-                  class="tablinks active"
-                  onclick="openCurrency(event, 'Гривня')"
-                  ><img
-                    class="tablinks_img"
-                    src="./images/details/UA.svg"
-                    alt="Гривня"
                   />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="##"
-                  class="tablinks"
-                  onclick="openCurrency(event, 'US Dollar')"
-                  ><img
-                    class="tablinks_img"
-                    src="./images/details/US.svg"
-                    alt="US Dollar"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="##"
-                  class="tablinks"
-                  onclick="openCurrency(event, 'Euro')"
-                  ><img
-                    class="tablinks_img"
-                    src="./images/details/EU.svg"
-                    alt="Euro"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="##"
-                  class="tablinks"
-                  onclick="openCurrency(event, 'Zloty')"
-                  ><img
-                    class="tablinks_img"
-                    src="./images/details/PL.svg"
-                    alt="Złoty"
-                /></a>
-              </li>
-            </ul>
-            <div id="Гривня" class="tabcontent" style="display: block">
-              <h3 class="details_subtitle">
-                Реквізити для благодійних внесків у гривні
-              </h3>
-              <ul class="details_list list">
-                <li class="details_item details_item--bold">
-                  Назва банку: АТ КБ "ПРИВАТБАНК"
-                </li>
-                <li class="details_item">
-                  Одержувач: Благодійна організація «Незламна»
-                </li>
-                <li class="details_item">
-                  Рахунок отримувача у форматі відповідно до стандарту IBAN:
-                  <span class="text_fot_copy"
-                    >UA073052990000026002011025224</span
+                  <span style="vertical-align:middle; !important"
+                  >Підтримати збір</span
                   >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Призначення платежу:
-                  <span class="text_fot_copy"
-                    >Благодійна допомога на амуніцію для ЗСУ</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-              <ul class="details_list list">
-                <li class="details_item details_item--bold">
-                  Назва банку: AT «КРЕДОБАНК»
-                </li>
-                <li class="details_item">
-                  Одержувач: Благодійна організація «Незламна»
-                </li>
-                <li class="details_item">
-                  ЄДРПОУ <span class="text_fot_copy">44833899</span>
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Код отримувача: <span class="text_fot_copy">325365</span>
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Рахунок отримувача у форматі відповідно до стандарту IBAN:
-                  <span class="text_fot_copy"
-                    >UA613253650000000260080036963</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Призначення платежу:
-                  <span class="text_fot_copy"
-                    >Благодійна допомога на амуніцію для ЗСУ</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-            </div>
-            <div id="US Dollar" class="tabcontent">
-              <h3 class="details_subtitle">
-                Реквізити для благодійних внесків у доларах
-              </h3>
-              <ul class="details_list list">
-                <li class="details_item details_item--bold">
-                  Назва банку: АТ КБ "ПРИВАТБАНК"
-                </li>
-                <li class="details_item">
-                  Одержувач: Благодійна організація «Незламна»
-                </li>
-                <li class="details_item">
-                  Рахунок отримувача у форматі відповідно до стандарту IBAN:
-                  <span class="text_fot_copy"
-                    >UA673052990000026000041027379</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Призначення платежу:
-                  <span class="text_fot_copy"
-                    >Благодійна допомога на амуніцію для ЗСУ</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-              <ul class="details_list list">
-                <li class="details_item details_item--bold">
-                  Назва банку: AT «КРЕДОБАНК»
-                </li>
-                <li class="details_item">
-                  Одержувач: Благодійна організація «Незламна»
-                </li>
-                <li class="details_item">
-                  ЄДРПОУ <span class="text_fot_copy">44833899</span>
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Код отримувача: <span class="text_fot_copy">325365</span>
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Рахунок отримувача у форматі відповідно до стандарту IBAN:
-                  <span class="text_fot_copy"
-                    >UA513253650000000260000037751</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Призначення платежу:
-                  <span class="text_fot_copy"
-                    >Благодійна допомога на амуніцію для ЗСУ</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-            </div>
-            <div id="Euro" class="tabcontent">
-              <h3 class="details_subtitle">
-                Реквізити для благодійних внесків у євро
-              </h3>
-              <ul class="details_list list">
-                <li class="details_item details_item--bold">
-                  Назва банку: АТ КБ "ПРИВАТБАНК"
-                </li>
-                <li class="details_item">
-                  Одержувач: Благодійна організація «Незламна»
-                </li>
-                <li class="details_item">
-                  Рахунок отримувача у форматі відповідно до стандарту IBAN:
-                  <span class="text_fot_copy"
-                    >UA513052990000026001041015799</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Призначення платежу:
-                  <span class="text_fot_copy"
-                    >Благодійна допомога на амуніцію для ЗСУ</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-              <ul class="details_list list">
-                <li class="details_item details_item--bold">
-                  Назва банку: AT «КРЕДОБАНК»
-                </li>
-                <li class="details_item">
-                  Одержувач: Благодійна організація «Незламна»
-                </li>
-                <li class="details_item">
-                  ЄДРПОУ <span class="text_fot_copy">44833899</span>
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Код отримувача: <span class="text_fot_copy">325365</span>
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Рахунок отримувача у форматі відповідно до стандарту IBAN:
-                  <span class="text_fot_copy"
-                    >UA163253650000000260070037752</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Призначення платежу:
-                  <span class="text_fot_copy"
-                    >Благодійна допомога на амуніцію для ЗСУ</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-            </div>
-
-            <div id="Zloty" class="tabcontent">
-              <h3 class="details_subtitle">
-                Реквізити для благодійних внесків у злотих
-              </h3>
-              <ul class="details_list list">
-                <li class="details_item details_item--bold">
-                  Назва банку: АТ КБ "ПРИВАТБАНК"
-                </li>
-                <li class="details_item">
-                  Одержувач: Благодійна організація «Незламна»
-                </li>
-                <li class="details_item">
-                  Рахунок отримувача у форматі відповідно до стандарту IBAN:
-                  <span class="text_fot_copy"
-                    >UA303052990000026000021020437</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Призначення платежу:
-                  <span class="text_fot_copy"
-                    >Благодійна допомога на амуніцію для ЗСУ</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-              <ul class="details_list list">
-                <li class="details_item details_item--bold">
-                  Назва банку: AT «КРЕДОБАНК»
-                </li>
-                <li class="details_item">
-                  Одержувач: Благодійна організація «Незламна»
-                </li>
-                <li class="details_item">
-                  ЄДРПОУ <span class="text_fot_copy">44833899</span>
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Код отримувача: <span class="text_fot_copy">325365</span>
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Рахунок отримувача у форматі відповідно до стандарту IBAN:
-                  <span class="text_fot_copy"
-                    >UA343253650000000260040037753</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="details_item">
-                  Призначення платежу:
-                  <span class="text_fot_copy"
-                    >Благодійна допомога на амуніцію для ЗСУ</span
-                  >
-                  <button class="details_btn btn_copy">
-                    <svg class="details_icon" width="15px" height="15px">
-                      <use href="./images/icon.svg#icon-edit-copy"></use>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
+                </button>
+              </form>
             </div>
           </div>
         </div>
+        </div>
       </section>
+
+        <section class="details" id="net">
+            <div class="container">
+                <div class="bank-invoices">
+                    <h3 class="details_titel">Реквізити для підтримки</h3>
+                    <ul class="tab">
+                        <li>
+                            <a
+                                    href="##"
+                                    class="tablinks active"
+                                    onclick="openCurrency(event, 'Гривня')"
+                            ><img
+                                    class="tablinks_img"
+                                    src="./images/details/UA.svg"
+                                    alt="Гривня"
+                            />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                    href="##"
+                                    class="tablinks"
+                                    onclick="openCurrency(event, 'US Dollar')"
+                            ><img
+                                    class="tablinks_img"
+                                    src="./images/details/US.svg"
+                                    alt="US Dollar"
+                            />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                    href="##"
+                                    class="tablinks"
+                                    onclick="openCurrency(event, 'Euro')"
+                            ><img
+                                    class="tablinks_img"
+                                    src="./images/details/EU.svg"
+                                    alt="Euro"
+                            /></a>
+                        </li>
+                        <li>
+                            <a
+                                    href="##"
+                                    class="tablinks"
+                                    onclick="openCurrency(event, 'Zloty')"
+                            ><img
+                                    class="tablinks_img"
+                                    src="./images/details/PL.svg"
+                                    alt="Złoty"
+                            /></a>
+                        </li>
+                    </ul>
+                    <div id="Гривня" class="tabcontent" style="display: block">
+                        <h3 class="details_subtitle">
+                            Реквізити для благодійних внесків у гривні
+                        </h3>
+                        <ul class="details_list list">
+                            <li class="details_item details_item--bold">
+                                Назва банку: АТ КБ "ПРИВАТБАНК"
+                            </li>
+                            <li class="details_item">
+                                Одержувач: Благодійна організація «Незламна»
+                            </li>
+                            <li class="details_item">
+                                Рахунок отримувача у форматі відповідно до стандарту IBAN:
+                                <span class="text_fot_copy"
+                                >UA073052990000026002011025224</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Призначення платежу:
+                                <span class="text_fot_copy"
+                                >Благодійна допомога на амуніцію для ЗСУ</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                        <ul class="details_list list">
+                            <li class="details_item details_item--bold">
+                                Назва банку: AT «КРЕДОБАНК»
+                            </li>
+                            <li class="details_item">
+                                Одержувач: Благодійна організація «Незламна»
+                            </li>
+                            <li class="details_item">
+                                ЄДРПОУ <span class="text_fot_copy">44833899</span>
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Код отримувача: <span class="text_fot_copy">325365</span>
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Рахунок отримувача у форматі відповідно до стандарту IBAN:
+                                <span class="text_fot_copy"
+                                >UA613253650000000260080036963</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Призначення платежу:
+                                <span class="text_fot_copy"
+                                >Благодійна допомога на амуніцію для ЗСУ</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="US Dollar" class="tabcontent">
+                        <h3 class="details_subtitle">
+                            Реквізити для благодійних внесків у доларах
+                        </h3>
+                        <ul class="details_list list">
+                            <li class="details_item details_item--bold">
+                                Назва банку: АТ КБ "ПРИВАТБАНК"
+                            </li>
+                            <li class="details_item">
+                                Одержувач: Благодійна організація «Незламна»
+                            </li>
+                            <li class="details_item">
+                                Рахунок отримувача у форматі відповідно до стандарту IBAN:
+                                <span class="text_fot_copy"
+                                >UA673052990000026000041027379</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Призначення платежу:
+                                <span class="text_fot_copy"
+                                >Благодійна допомога на амуніцію для ЗСУ</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                        <ul class="details_list list">
+                            <li class="details_item details_item--bold">
+                                Назва банку: AT «КРЕДОБАНК»
+                            </li>
+                            <li class="details_item">
+                                Одержувач: Благодійна організація «Незламна»
+                            </li>
+                            <li class="details_item">
+                                ЄДРПОУ <span class="text_fot_copy">44833899</span>
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Код отримувача: <span class="text_fot_copy">325365</span>
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Рахунок отримувача у форматі відповідно до стандарту IBAN:
+                                <span class="text_fot_copy"
+                                >UA513253650000000260000037751</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Призначення платежу:
+                                <span class="text_fot_copy"
+                                >Благодійна допомога на амуніцію для ЗСУ</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="Euro" class="tabcontent">
+                        <h3 class="details_subtitle">
+                            Реквізити для благодійних внесків у євро
+                        </h3>
+                        <ul class="details_list list">
+                            <li class="details_item details_item--bold">
+                                Назва банку: АТ КБ "ПРИВАТБАНК"
+                            </li>
+                            <li class="details_item">
+                                Одержувач: Благодійна організація «Незламна»
+                            </li>
+                            <li class="details_item">
+                                Рахунок отримувача у форматі відповідно до стандарту IBAN:
+                                <span class="text_fot_copy"
+                                >UA513052990000026001041015799</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Призначення платежу:
+                                <span class="text_fot_copy"
+                                >Благодійна допомога на амуніцію для ЗСУ</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                        <ul class="details_list list">
+                            <li class="details_item details_item--bold">
+                                Назва банку: AT «КРЕДОБАНК»
+                            </li>
+                            <li class="details_item">
+                                Одержувач: Благодійна організація «Незламна»
+                            </li>
+                            <li class="details_item">
+                                ЄДРПОУ <span class="text_fot_copy">44833899</span>
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Код отримувача: <span class="text_fot_copy">325365</span>
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Рахунок отримувача у форматі відповідно до стандарту IBAN:
+                                <span class="text_fot_copy"
+                                >UA163253650000000260070037752</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Призначення платежу:
+                                <span class="text_fot_copy"
+                                >Благодійна допомога на амуніцію для ЗСУ</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="Zloty" class="tabcontent">
+                        <h3 class="details_subtitle">
+                            Реквізити для благодійних внесків у злотих
+                        </h3>
+                        <ul class="details_list list">
+                            <li class="details_item details_item--bold">
+                                Назва банку: АТ КБ "ПРИВАТБАНК"
+                            </li>
+                            <li class="details_item">
+                                Одержувач: Благодійна організація «Незламна»
+                            </li>
+                            <li class="details_item">
+                                Рахунок отримувача у форматі відповідно до стандарту IBAN:
+                                <span class="text_fot_copy"
+                                >UA303052990000026000021020437</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Призначення платежу:
+                                <span class="text_fot_copy"
+                                >Благодійна допомога на амуніцію для ЗСУ</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                        <ul class="details_list list">
+                            <li class="details_item details_item--bold">
+                                Назва банку: AT «КРЕДОБАНК»
+                            </li>
+                            <li class="details_item">
+                                Одержувач: Благодійна організація «Незламна»
+                            </li>
+                            <li class="details_item">
+                                ЄДРПОУ <span class="text_fot_copy">44833899</span>
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Код отримувача: <span class="text_fot_copy">325365</span>
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Рахунок отримувача у форматі відповідно до стандарту IBAN:
+                                <span class="text_fot_copy"
+                                >UA343253650000000260040037753</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li class="details_item">
+                                Призначення платежу:
+                                <span class="text_fot_copy"
+                                >Благодійна допомога на амуніцію для ЗСУ</span
+                                >
+                                <button class="details_btn btn_copy">
+                                    <svg class="details_icon" width="15px" height="15px">
+                                        <use href="./images/icon.svg#icon-edit-copy"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
       <section class="documents">
         <div class="container">
