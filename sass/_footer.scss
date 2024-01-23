@@ -11,9 +11,9 @@ footer {
       & > p {
         margin-top: 57px;
         color: white;
-        font-size: 28px;
-        line-height: 28px;
-        margin-bottom: 43px;
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 36px;
         text-align: center;
       }
 
@@ -21,7 +21,7 @@ footer {
         display: flex;
         justify-content: space-around;
         @media screen and (min-width: 1280px) {
-          justify-content: space-between;
+          justify-content: flex-start;
         }
 
         a {
