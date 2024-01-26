@@ -912,6 +912,22 @@ ul.tab li a {
   display: flex;
   justify-content: center;
 }
+.products__list .buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 40px;
+  flex-direction: column;
+}
+@media screen and (min-width: 1280px) {
+  .products__list .buttons-container {
+    margin-top: 54px;
+    flex-direction: row;
+  }
+}
+.products__list .buttons-container button {
+  width: 100%;
+}
 .products__list .item {
   width: 50%;
 }

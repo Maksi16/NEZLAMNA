@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://portal.fondy.eu/mportal/static/css/button.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -772,47 +776,56 @@
                         src="./images/products/donate.jpg"
                         alt="донат"
                 />
-
-                <form
-                        method="POST"
-                        accept-charset="utf-8"
-                        action="https://www.liqpay.ua/api/3/checkout"
-                        style="text-align: center; margin-top: 40px"
-                >
-                  <input type="hidden" name="data" value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJhbW91bnQiOiIxMDAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0JHQu9Cw0LPQvtC00ZbQudC90LjQuSDQstC90LXRgdC+0LoiLCJwdWJsaWNfa2V5IjoiaTMxNDk5NTE1NTgzIiwibGFuZ3VhZ2UiOiJ1ayJ9" />
-                  <input type="hidden" name="signature" value="egLsp5uJMc3OO4oiaaAUZEe9Vkk=" />
-
-                  <button
-                    style="
-                      border: none !important;
-                      display: inline-block !important;
-                      text-align: center !important;
-                      padding: 13px 20px !important;
-                      color: #fff !important;
-                      font-size: 16px !important;
-                      font-weight: 600 !important;
-                      font-family: OpenSans, sans-serif;
-                      cursor: pointer !important;
-                      border-radius: 2px !important;
-                      background: rgba(122, 183, 43, 1) !important;
-                    "
-                    onmouseover="this.style.opacity='0.5';"
-                    onmouseout="this.style.opacity='1';"
+                <div class="buttons-container">
+                  <form
+                    method="POST"
+                    accept-charset="utf-8"
+                    action="https://www.liqpay.ua/api/3/checkout"
                   >
-                    <img
-                      src="https://static.liqpay.ua/buttons/logo-small.png"
-                      name="btn_text"
+                    <input type="hidden" name="data" value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJhbW91bnQiOiIxMDAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0JHQu9Cw0LPQvtC00ZbQudC90LjQuSDQstC90LXRgdC+0LoiLCJwdWJsaWNfa2V5IjoiaTMxNDk5NTE1NTgzIiwibGFuZ3VhZ2UiOiJ1ayJ9" />
+                    <input type="hidden" name="signature" value="egLsp5uJMc3OO4oiaaAUZEe9Vkk=" />
+
+                    <button
                       style="
-                        margin-right: 7px !important;
-                        vertical-align: middle !important;
-                        display: inline-block;
+                        border: none !important;
+                        display: inline-block !important;
+                        text-align: center !important;
+                        padding: 13px 20px !important;
+                        color: #fff !important;
+                        font-size: 16px !important;
+                        font-weight: 600 !important;
+                        font-family: OpenSans, sans-serif;
+                        cursor: pointer !important;
+                        border-radius: 2px !important;
+                        background: rgba(122, 183, 43, 1) !important;
                       "
-                    />
-                    <span style="vertical-align:middle; !important"
-                      >Підтримати збір</span
+                      onmouseover="this.style.opacity='0.5';"
+                      onmouseout="this.style.opacity='1';"
                     >
-                  </button>
-                </form>
+                      <img
+                        src="https://static.liqpay.ua/buttons/logo-small.png"
+                        name="btn_text"
+                        style="
+                          margin-right: 7px !important;
+                          vertical-align: middle !important;
+                          display: inline-block;
+                        "
+                      />
+                      <span style="vertical-align:middle; !important"
+                        >Підтримати збір</span
+                      >
+                    </button>
+                  </form>
+                  <a
+                    href="https://pay.fondy.eu/api/checkout?button=986f01c64d66ab0026bdedd73bebaea539cd5258"
+                    data-button=""
+                    class="f-p-b"
+                    style="--fpb-background: #ffe248; --fpb-color: #163530; --fpb-border-color: #ffe248; --fpb-border-width: 0px; --fpb-font-weight: 700; --fpb-font-size: 16px; --fpb-border-radius: 2px; line-height: 1.9; text-align: center;"
+                  >
+                      <i data-text="name">Міжнародний платіж</i>
+                      <i data-text="amount"> </i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
