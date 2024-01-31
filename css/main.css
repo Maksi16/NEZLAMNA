@@ -276,22 +276,33 @@ body {
 
 .help {
   padding-bottom: 50px;
+  background-image: url(../images/header/help_desk.png);
+  background-position: left top;
+  background-size: auto 200px;
+  background-repeat: no-repeat;
+  padding-top: 240px;
 }
 @media screen and (min-width: 768px) {
   .help {
-    padding-bottom: 89px;
+    padding-bottom: 160px;
+    background-size: 700px;
+    padding-top: 500px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .help {
+    padding-top: 0;
   }
 }
 
 .help__box {
   padding: 0 15px;
-  margin: 0 auto;
+  flex-direction: column;
 }
 @media screen and (min-width: 1280px) {
   .help__box {
     display: flex;
-    padding: 0;
-    margin-left: 74px;
+    padding: 25px 0 0;
   }
 }
 
@@ -299,9 +310,7 @@ body {
   .help__wrap {
     display: flex;
     align-items: center;
-    width: 1460px;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: flex-end;
   }
 }
 
@@ -321,9 +330,6 @@ body {
   .help_text {
     width: 456px;
   }
-}
-.help_text.quote .author {
-  text-align: right;
 }
 
 @media screen and (min-width: 768px) {
