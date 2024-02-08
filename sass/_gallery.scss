@@ -16,6 +16,9 @@
 
     #more-reports {
         display: none;
+        @media screen and (min-width: 1280px) {
+            display: flex;
+        }
     }
 
     .team__btn {
