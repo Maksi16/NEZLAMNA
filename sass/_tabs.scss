@@ -1,0 +1,42 @@
+.gallery-tabs {
+  .nav-tabs {
+    margin-bottom: -2px;
+    border: none;
+  }
+  .nav-item {
+    width: 50%;
+
+    a {
+      display: inline-block;
+      width: 100%;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.79;
+      font-family: Manrope;
+      opacity: 0.4;
+      color: #000;
+      transition: none;
+      text-align: center;
+      outline: none;
+
+      &:hover,
+      &:focus {
+        border: none;
+        background: transparent;
+        
+      }
+
+      &.active {
+        opacity: 1;
+        border: none;
+        border-bottom: 4px solid #163530;
+      }
+    }
+  }
+
+  .tab-pane {
+    &.active {
+      border-bottom: none;
+    }
+  }
+}
