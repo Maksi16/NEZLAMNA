@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="сайт благодійної організація 'НЕЗЛАМНА'"
+    />
+    <meta
+      name="keywords"
+      content="волонтери, зсу, допомога, військові запити"
+    />
+    <title>Благодійна організація "НЕЗЛАМНА"</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FYFJN36WEH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FYFJN36WEH');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NQVMNSL');</script>
+    <!-- End Google Tag Manager -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQVMNSL"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <header class="header">
+      <div class="container header_box">
+        <nav class="navigations">
+          <a href="./index.html" class="logo link">
+            <img
+              class="logo_icon"
+              src="./images/header/logo.svg"
+              alt="логотип БО 'Незламна'"
+            />
+          </a>
+          <button class="mob-menu__open open" type="button">
+            <svg class="mob-menu_icon" width="40" height="40">
+              <use href="./images/icon.svg#icon-menu_40px"></use>
+            </svg>
+          </button>
+          <ul class="navigations_list list">
+            <li class="navigations_item">
+              <a class="navigations_link link" href="about-us.html"
+                >Про&nbsp;нас</a
+              >
+            </li>
+            <li class="navigations_item">
+              <a class="navigations_link link" href="gallery.html">Галерея</a>
+            </li>
+            <li class="navigations_item">
+              <a href="index.html#team" class="navigations_link link">Команда</a>
+            </li>
+            <li class="navigations_item">
+              <a href="contact.html" class="navigations_link link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="navigations__supportBtn link" href="#details">
+          <img
+            src="images/footer/gerb.svg"
+            alt="UKRAINE"
+            width="20"
+            height="27"
+          />
+          Підтримати
+        </a>
+        <div class="mob-menu is-hidden">
+          <div class="mob-menu__box">
+            <div class="mob-menu__logo">
+              <a href="./index.html" class="logo link">
+                <img
+                  class="logo_icon"
+                  src="./images/header/logo.svg"
+                  alt="логотип БО 'Незламна'"
+                />
+              </a>
+              <button class="mob-menu__close close" type="button">
+                <svg class="mob-menu_icon" width="40" height="40">
+                  <use href="./images/icon.svg#icon-close_40px"></use>
+                </svg>
+              </button>
+            </div>
+            <ul class="mob-menu__list list">
+              <li class="mob-menu__item">
+                <a class="mob-menu__link link close" href="about-us.html"
+                  >Про&nbsp;нас</a
+                >
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__link link close" href="gallery.html">Галерея</a>
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__link link close" href="index.html#team">Команда</a>
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__link link close" href="contact.html"
+                  >Контакти</a
+                >
+              </li>
+            </ul>
+            <a class="mob-menu__supportBtn link close" href="#details">
+              <img
+                src="images/header/gerb.svg"
+                alt="UKRAINE"
+                width="20"
+                height="27"
+              />
+              Підтримати
+            </a>
+            <div class="socMedia">
+              <a href="https://t.me/co_nezlamna"
+                ><img src="images/header/telegram.svg" alt="Telgram"
+              /></a>
+              <a href="https://www.facebook.com/CO-Nezlamna-104624808917848"
+                ><img src="images/header/feacebook.svg" alt="Facebook"
+              /></a>
+              <a href="https://instagram.com/co_nezlamna?igshid=YmMyMTA2M2Y="
+                ><img src="images/header/instagram.svg" alt="Instagram"
+              /></a>
+              <a href="https://vm.tiktok.com/ZMLvgVe7k/"
+                ><img src="images/header/toktok.svg" alt="TikTok"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="gallery">
+        <div class="container">
+          <h2 class="team__title">Галерея</h2>
+          <div class="gallery-tabs">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="true">Події</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="reports-tab" data-toggle="tab" href="#reports" role="tab" aria-controls="reports" aria-selected="true">Звіти</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="events" role="tabpanel" aria-labelledby="events-tab">
+                <div class="col-md-12 gallery-container">
+                  <div class="row" id="events-wrapper"></div>
+                  <div class="row">
+                    <span id="dots" class="visually-hidden">...</span>
+                  </div>
+                  <div class="row events-wrapper-more" id="more" >
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <button class="team__btn" type="button" id="btn" onclick="readMore()">
+                        Показати ще
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="reports" role="tabpanel" aria-labelledby="reports-tab">
+                <div class="col-md-12 gallery-container">
+                  <div class="row" id="reports-wrapper"></div>
+                  <div class="row">
+                    <span id="dots-reports" class="visually-hidden">...</span>
+                  </div>
+                  <div class="row reports-wrapper-more" id="more-reports" >
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <button class="team__btn" type="button" id="btn-reports" onclick="showMoreReporst()">
+                        Показати ще
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-md modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body p-0 text-center bg-alt">
+                      <button type="button" class="close float-right" aria-label="Close" data-dismiss="modal">
+                        <span aria-hidden="true">&#xD7;</span>
+                      </button>
+                        <img src="#" id="galleryImage" class="loaded-image mx-auto img-fluid">
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+          
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="containerF">
+          <div class="logo-slogan">
+            <a href="/" class="logoFooter">
+              <img src="images/footer/logo-footer.svg" alt="NEZLAMNA" />
+            </a>
+
+            <p>Приєднуйтеся до нашої боротьби за свободу, підтримуйте наші проєкти!</p>
+
+            <div class="buttons">
+              <a class="supportBtn" href="#details">
+                <img src="images/footer/gerb.svg" alt="UKRAINE" />
+                Підтримати
+              </a>
+
+              <a
+                class="helpBtn"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScfR3pfU-mFY9tFt_yBx37b408Fi8107j_00Dq4AMTrwBJL7A/viewform"
+                >Потрібна допомога
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__contacts">
+            <div>
+              <h3>Контакти</h3>
+              <p class="footer__text">
+                Україна, м.Львів <br />
+                <a class="link" href="mailto:conezlamna@gmail.com"
+                  >conezlamna@gmail.com</a
+                >
+              </p>
+            </div>
+
+            <div class="socMedia">
+              <a href="https://t.me/co_nezlamna"
+                ><img src="images/footer/Telegram.svg" alt="Telgram"
+              /></a>
+              <a href="https://www.facebook.com/CO-Nezlamna-104624808917848"
+                ><img src="images/footer/Facebook.svg" alt="Facebook"
+              /></a>
+              <a href="https://instagram.com/co_nezlamna?igshid=YmMyMTA2M2Y="
+                ><img src="images/footer/Instagram.svg" alt="Instagram"
+              /></a>
+              <a href="https://vm.tiktok.com/ZMLvgVe7k/"
+                ><img src="images/footer/TikTok.svg" alt="TikTok"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-menu">
+          <a href="index.html#about">Хто ми</a>
+          <a href='gallery.html'>Галерея</a>
+          <a href="index.html#team">Команда</a>
+          <a href="offer.html">Оферта</a>
+          <a target="_blank" href="files/Статут Благодійної організації НЕЗЛАМНА.pdf"
+            >Статут (Укр)</a
+          >
+        </div>
+
+        <p class="bottom-name">БО “Незламна” 2022</p>
+      </div>
+    </footer>
+
+    <script src="./js/mob-menu.js"></script>
+    <script src="./js/menu-close.js"></script>
+
+    <script src="./js/details-list.js"></script>
+    <script src="./js/copy-text.js"></script>
+    <script src="./js/readMore.js"></script>
+    <script src="./js/events-gallery.js"></script>
+    <script src="./js/reports-gallery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./js/tabs.js"></script>
+  </body>
+</html>
