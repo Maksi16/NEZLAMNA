@@ -155,3 +155,42 @@
     display: flex;
   }
 }
+
+.background-image {
+  background-color: #f3f4f1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.background-image .team__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.background-image .team__img.love-kebab {
+  width: 60%;
+}
+
+.partners-button {
+  margin-top: 45px;
+}
+
+.partners-button {
+  @media screen and (min-width: 768px) {
+    .link--suport {
+        width: 285px;
+    }
+  }
+}
+
+
+
+
